@@ -10,7 +10,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Phrasetext ~ Phrasetool by Rimpido</title>
+    <title>Help ~ Phrasetool by Rimpido</title>
 
     <!-- Fontfaces CSS-->
     <link href="../../css/font-face.css" rel="stylesheet" media="all">
@@ -34,6 +34,27 @@
     <!-- Main CSS-->
     <link href="../../css/theme.css" rel="stylesheet" media="all">
 
+    <style type="text/css">
+
+        .pagination a {
+          color: black;
+          float: left;
+          padding: 8px 16px;
+          text-decoration: none;
+          transition: background-color .3s;
+        }
+
+        /* Style the active/current link */
+        .pagination a.active {
+          background-color: dodgerblue;
+          color: white;
+        }
+
+        /* Add a grey background color on mouse-over */
+        .pagination a:hover:not(.active) {background-color: #ddd;}
+    
+    </style>
+
 </head>
 
 <body class="animsition">
@@ -48,14 +69,14 @@
             <div class="menu-sidebar2__content js-scrollbar1">
                 <div class="account2">
                     <div class="image img-cir img-120">
-                        <img src="images/icon/user.jpg" alt="User" />
+                        <img src="../../images/icon/user.jpg" alt="User" />
                     </div>
                     <h4 class="name">User</h4>
                     <a href="#">Sign out</a>
                 </div>
                 <nav class="navbar-sidebar2">
                     <ul class="list-unstyled navbar__list">
-                        <li class="active has-sub">
+                        <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-user"></i>User
                                 <span class="arrow">
@@ -92,7 +113,7 @@
                             </ul>
                         </li>
 
-                         <li class=" has-sub">
+                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-quote-left"></i>Phrasetext
                                 <span class="arrow">
@@ -101,19 +122,19 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="../phrasetext/phrasetext_landing.html">
                                         <i class="fas fa-search"></i>Search Phrasetext</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="../phrasetext/missing_phrasetext.html">
                                         <i class="fas fa-exclamation-circle"></i>Missing Translation</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
+                                    <a href="../phrasetext/list_phraseheads.html">
                                         <i class="fas fa-list-ol"></i>List Phraseheads</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="../phrasetext/new_phrasehead.html">
                                         <i class="far fa-plus-square"></i>New Phrasehead</a>
                                 </li>
                                
@@ -280,7 +301,7 @@
                                
                             </ul>
                         </li>
-                        <li class=" has-sub">
+                        <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-user-secret"></i>Admin
                                 <span class="arrow">
@@ -289,34 +310,34 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="admin_landing.php">
                                         <i class="far fa-calendar-alt"></i>Translations per month and user</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="admin_not_translated.html">
                                         <i class="fas fa-exclamation"></i>Missing Translations of Languagetexts</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
+                                    <a href="admin_country_not_translated.html">
                                         <i class="far fa-flag"></i>Missing Translations of Countrynames</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="admin_company_list.html">
                                         <i class="fas fa-list"></i>List of Companies</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="admin_new_company.html">
                                         <i class="far fa-plus-square"></i>New Company</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="admin_credit_point.html">
                                         <i class="fas fa-coins"></i>List Creditpoints</a>
                                 </li>
                                 
                                
                             </ul>
                         </li>
-                         <li class=" has-sub">
+                         <li class="active has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-question-circle"></i>Help
                                 <span class="arrow">
@@ -325,27 +346,27 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="#">
                                         <i class="far fa-file-alt"></i>User Data and Registration</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="help_phrasetexts_translations.html">
                                         <i class="fas fa-globe-europe"></i>Phrasetexts and Translations</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
+                                    <a href="help_phrasecatalogues_mapping.html">
                                         <i class="fas fa-map-signs"></i>Phrasecatalogues and Mapping</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="help_import_export.html">
                                         <i class="fas fa-arrows-alt-h"></i>Import and Export</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="help_property_tree.html">
                                         <i class="fas fa-code-branch"></i>Propertytrees</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="help_labels.html">
                                         <i class="fas fa-tag"></i>Labels</a>
                                 </li>
                                 
@@ -481,7 +502,7 @@
                         <div class="header-wrap2">
                             <div class="logo d-block d-lg-none">
                                 <a href="#">
-                                    <img src="image/icon/logo-white.png" alt="CoolAdmin" />
+                                    <img src="../../image/icon/logo-white.png" alt="CoolAdmin" />
                                 </a>
                             </div>
                             <div class="header-button2">
@@ -585,20 +606,20 @@
             <aside class="menu-sidebar2 js-right-sidebar d-block d-lg-none">
                 <div class="logo">
                     <a href="#">
-                        <img src="images/icon/logo-white.png" alt="Cool Admin" />
+                        <img src="../../images/icon/logo-white.png" alt="Cool Admin" />
                     </a>
                 </div>
                 <div class="menu-sidebar2__content js-scrollbar2">
                     <div class="account2">
                         <div class="image img-cir img-120">
-                            <img src="images/icon/user.jpg" alt="User" />
+                            <img src="../../images/icon/user.jpg" alt="User" />
                         </div>
                         <h4 class="name">User</h4>
                         <a href="#">Sign out</a>
                     </div>
                     <nav class="navbar-sidebar2">
                     <ul class="list-unstyled navbar__list">
-                        <li class="active has-sub">
+                        <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>User
                                 <span class="arrow">
@@ -633,7 +654,7 @@
                             </ul>
                         </li>
 
-                         <li class=" has-sub">
+                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>Phrasetext
                                 <span class="arrow">
@@ -830,35 +851,35 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
-                                        <i class="fas fa-tachometer-alt"></i>Translations per month and user</a>
+                                    <a href="admin_landing.php">
+                                        <i class="far fa-calendar-alt"></i>Translations per month and user</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
-                                        <i class="fas fa-tachometer-alt"></i>Missing Translations of Languagetexts</a>
+                                    <a href="admin_not_translated.html">
+                                        <i class="fas fa-exclamation"></i>Missing Translations of Languagetexts</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
-                                        <i class="fas fa-tachometer-alt"></i>Missing Translations of Countrynames</a>
+                                    <a href="admin_country_not_translated.html">
+                                        <i class="far fa-flag"></i>Missing Translations of Countrynames</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>List of Companies</a>
+                                    <a href="admin_company_list.html">
+                                        <i class="fas fa-list"></i>List of Companies</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>New Company</a>
+                                    <a href="admin_new_company.html">
+                                        <i class="far fa-plus-square"></i>New Company</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>List Creditpoints</a>
+                                    <a href="admin_credit_point.html">
+                                        <i class="fas fa-coins"></i>List Creditpoints</a>
                                 </li>
                                 
                                
                             </ul>
                         </li>
-                         <li class=" has-sub">
-                            <a class="js-arrow" href="#">
+                         <li class="active has-sub">
+                            <a class="js-arrow" href="help_landing.html">
                                 <i class="fas fa-tachometer-alt"></i>Help
                                 <span class="arrow">
                                     <i class="fas fa-angle-down"></i>
@@ -866,28 +887,28 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
-                                        <i class="fas fa-tachometer-alt"></i>User Data and Registration</a>
+                                    <a href="#">
+                                        <i class="far fa-file-alt"></i>User Data and Registration</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
-                                        <i class="fas fa-tachometer-alt"></i>Phrasetexts and Translations</a>
+                                    <a href="help_phrasetexts_translations.html">
+                                        <i class="fas fa-globe-europe"></i>Phrasetexts and Translations</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
-                                        <i class="fas fa-tachometer-alt"></i>Phrasecatalogues and Mapping</a>
+                                    <a href="help_phrasecatalogues_mapping.html">
+                                        <i class="fas fa-map-signs"></i>Phrasecatalogues and Mapping</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>Import and Export</a>
+                                    <a href="help_import_export.html">
+                                        <i class="fas fa-arrows-alt-h"></i>Import and Export</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>Propertytrees</a>
+                                    <a href="help_property_tree.html">
+                                        <i class="fas fa-code-branch"></i>Propertytrees</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>Labels</a>
+                                    <a href="help_labels.html">
+                                        <i class="fas fa-tag"></i>Labels</a>
                                 </li>
                                 
                                
@@ -1021,15 +1042,15 @@
                             <div class="col-md-12">
                                 <div class="au-breadcrumb-content">
                                     <div class="au-breadcrumb-left">
-                                        <span class="au-breadcrumb-span">You are here:</span>
+                                        <span class="au-breadcrumb-span" id="topTopic">You are here:</span>
                                         <ul class="list-unstyled list-inline au-breadcrumb__list">
                                             <li class="list-inline-item active">
-                                                <a href="#">Phrasetext</a>
+                                                <a href="#">Help</a>
                                             </li>
                                             <li class="list-inline-item seprate">
                                                 <span>/</span>
                                             </li>
-                                            <li class="list-inline-item">Dashboard</li>
+                                            <li class="list-inline-item">Help on Phrasecatalogues and Mapping</li>
                                         </ul>
                                     </div>
                                     <!--
@@ -1047,113 +1068,180 @@
 
             <!-- Container Start -->
             <center>
-                 <div class="col-lg-12">
+                            <br>
+                            <div class="col-lg-12">
                                 <div class="card">
                                     <div class="card-header">
-                                        Search for<strong> Phrasetext </strong>
+                                        <strong style="float: left;"><h3>Help Pages of the Phrasetool by Rimpido </h3></strong>
                                    </div>
                                     <div class="card-body card-block">
-                                        <form action="" method="post" class="form-horizontal">
-                                            <div class="row form-group">
-                                                <div class="col col-md-6">
-                                                    Phrasetext <br>
-                                                    <div class="input-group">
-                                                        <input type="text" id="input1-group2" name="input1-group2" placeholder="Insert Phrasetext" class="form-control">
-                                                    </div>
-                                                <hr>
-                                                </div>
-                                                <div class="col col-md-6">
-                                                    Language <br>
-                                                    <div class="btn-group">
-                                                                <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle btn btn-warning">Please Select.</button>
-                                                            <div tabindex="-1" aria-hidden="true" role="menu" class="dropdown-menu">
-                                                                <button type="button" tabindex="0" class="dropdown-item">Afrikaans - af</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Arabic - ar</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Bulgarian - bg</button>
-                                                            </div>
-                                                    </div>
-                                                <hr>
-                                                </div>
-
-                                                <div class="col col-md-6">
-                                                    <br>
-                                                    Phrasegroup <br>
-                                                    <div class="btn-group">
-                                                                <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle btn btn-warning">Please Select.</button>
-                                                            <div tabindex="-1" aria-hidden="true" role="menu" class="dropdown-menu">
-                                                                <button type="button" tabindex="0" class="dropdown-item">0.00</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">1.00</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">01.00</button>
-                                                            </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col col-md-6">
-                                                    <br>
-                                                    Phrasecode <br>
-                                                    <div class="input-group">
-                                                        <input type="text" id="input1-group2" name="input1-group2" placeholder="Insert Phrasecode" class="form-control">
-                                                    </div>
-                                                    <small>You may use "%" as wildcard operator for the search</small>
-                                                </div>
-                                                <div class="col col-md-6">
-                                                    <br>
-                                                    PhraseId <br>
-                                                    <div class="input-group">
-                                                        <input type="text" id="input1-group2" name="input1-group2" placeholder="Insert PhraseID" class="form-control">
-                                                    </div>
-                                                    <small>You may use "%" as wildcard operator for the search</small>
-                                                </div>
-                                                <div class="col col-md-6">
-                                                    <div class="form-check">
-                                                        <div class="checkbox">
-                                                            <label for="checkbox1" class="form-check-label ">
-                                                                <BR><BR>
-                                                                <input type="checkbox" id="checkbox1" name="checkbox1" value="option1" class="form-check-input">Restriction to the number of words<br>
-                                                                <small> The search will be limited by to a similar number of words as entered in the field Phrasentext. </small>
-                                                            </label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            <div class="col col-md-6">
-                                                    <br>
-                                                    Phrase Catalogue <br>
-                                                    <div class="btn-group">
-                                                                <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle btn btn-warning">Please Select.</button>
-                                                            <div tabindex="-1" aria-hidden="true" role="menu" class="dropdown-menu">
-                                                                <button type="button" tabindex="0" class="dropdown-item">ACT 01</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">ACT 20</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">EPOS</button>
-                                                            </div>
-                                                    </div>
-                                                </div>
+                                        <p style="text-align: justify;"> A Phrasecatalogue is a collection of Phrases, which consist of Phraseheads (its base data) and Phrasetexts (its translations), gorup by PHrasegroups. The Phrasecatalogue has some base data which can be edited. Furthermore, the Phrasecatalogues can be mapped against each other, i.e., the Phrases will be compared and if one Phrase from the origin catalogue is sufficiently congruent with a Phrase of a target catalogue a reference wil be written. Such Mapping can be verified via Phrasencatalogue- Comparison.
+                                            <br>
+                                            <br>
+                                            The help of the Phrasecatalogue contains of the following topics:<br><br>
+                                            <li><a href="#overviewCatalogues"> Overview of Catalogues </a></li>
+                                            <li><a href="#editingCatalogues"> Editing of Catalogue </a></li>
+                                            <li><a href="#mappingCatalogues"> Mapping of Catalogues </a></li>
+                                            <li><a href="#comparingCatalogues"> Comparison of Catalogues </a></li>
+                                            </p>
+                                    </div>
+                                    </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                         <h5 style="float: left;">Overview of Catalogues</h5>
+                                    </div>
+                                    <div class="card-body card-block">
+                                        <div class="row">
+                                        <div class="col-md-6">
+                                        <p style="text-align: justify;">
+                                            The index page gives an overview over all used catalogues (of your company). Only catalogues visible on this page may be used for further functions. These functions are "View", "Edit", "Mapping", and "Delete". Not every user is allowed to use all function. These functions are explained below. <strong id="overviewCatalogues"> Please note: </strong> Adding a phrasecatalogue is nearly similar to editing existing ones, so please look for information there. 
+                                            <div> <a href="#topTopic">Return to Top </a></div>  
+                                        </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                         <h5 style="float: left;" id="editingCatalogues">Editing of Catalogues (And Adding)</h5>
+                                    </div>
+                                    <div class="card-body card-block">
+                                        <p style="text-align: justify;">
+                                            <div class="row">
+                                            <div class="col-md-6">
+                                            For Phrasecatalogues only some six variables must be set. <br><br>
+                                            <div style="text-align: left;">
+                                            <b> Katalog Pin: </b> This is the identifier (name) of the Phrasecatalogue. It should be short and unique. <br>
+                                            <b> Catalogue Version:</b> The Catalogue Distributor is a text field which gives details about who has composed or distributed the Phrasecatalogue.<br>
+                                            <b> Catalogue Date: </b> This defines the data of issue for the current Phrsecatalogue.<br>
+                                            <b> Number Range: </b> This identifier is only needed for compatibility with SAP&reg systems. All mentioned fields are necessary for a Phrasecatalogue.
                                             </div>
-                                        </form>
-                                            <button type="submit" class="btn btn-success btn-sm">
-                                                <i class="fa fa-dot-circle-o"></i> Submit
-                                            </button>
-                                    </div>
-                                        
-                                </div>
-                            </div>
+                                            <br>
+                                            <div> <a href="#topTopic">Return to Top </a></div>  
+                                             </p>
 
-                                                    <div class="col-lg-12">
+                                            </div>
+                                            </div>
+
+
+                                    </div>
+                                </div>
+
+                                <div class="card" id="mappingCatalogues">
+                                    <div class="card-header">
+                                         <h5 style="float: left;">Mapping of Catalogues</h5>
+                                    </div>
+                                    <div class="card-body card-block">
+                                            <div class="row">
+                                            <div class="col-md-6">
+                                                <p style="text-align: left;">
+                                            One unique function of the pHrasetool by Rimpido is its capability to map (reference) to Phrasecatalogues against each other. I.e., the Phrases of the first Phrasecatalogue will be taken and for each Phrase a search will be executed trying to find a similar Phrase in the other Phrasecatalogue. <br> These references can be used to match to Phrasecatalogues, to "copy" Phraseset-reference form one Phrasecatalogue to another or to add missing Phrases. <br><br>
+                                            <b>Please Note: </b> Prior to make use of the Mapping it is needed to understand the conditions of the mapping! <br><br>
+                                            Firstly, note that the Mapping process has a direction. Whenever youw ant to use a function on two mapped Phrasecatalogues, please be sure that you have maped the Phrasecdatalogues using the same direction. In that way if you map Phrasecatalogue A against Phrasecatalogue B, A is declared as "Origin Catalogue" and B is declared as "Target Catalogue"<br><br>
+                                            If you ever mix up the direction you'll get unexpected and unreliable results on the functions! <br><br>
+                                            The Mapping itself runs through the Phrases of the "Origin Catalogue" <i>(A)</i> and tries to find the same Phrase or a similar Phrase in the "Target Catalogue" <i> B</i> using the following search in hierarchical order:
+                                            <br><br>
+                                            <div style="text-align: left;"> 
+                                            1. <b>Same Phrasecode</b> Search for any Phrase with the same Phrasecode<br>
+                                            2. <b>Identical Phrase: </b> Search for any identical Phrase<br>
+                                            3. <b> Nearly Identical Phrase: </b> Search for any identical Phrase (case-insensitive, ignoring ".", ",", ";", ":", and " ")<br>
+                                            4. <b> Boolean TextSearch </b> Search for any Phrase which is mostly similar using a fultlext search from <a href="http://dev.mysql.com/doc/refman/5.5/en//fulltext-boolean.html">MySQL</a> with a minimum on the match Value. <br>
+                                            5. <b> Natural TextSearch </b> Search for any Phrase where most "words" are similar using a fulltext search from <a href="http://dev.mysql.com/doc/refman/5.5/en//fulltext-boolean.html">MySQL</a> with a minimum on the match value. 
+                                            </div>
+                                            <br>
+                                            <br>
+                                            <p style="text-align: left;">
+                                            The search for a Phrase stops at the first search which gives at least one matching Phrase. Thus, the matching could be pretty fast of on both catalogues Phrases with Phrasecodes exist only.<br><br>
+                                            If one matching Phrase is existing the mapping will be written into the reference table, but only the first three search functions and hte fourth functionif a very hgh match criteria is met. For the forth and fifth search function the mapping will be normally be writteninot the temp table for a later review. Also, every matching with two or more matching Phrases will be written into the temp table. After a mapping process the temp table contains all the references which are ambiguous and therefore must be reviewed manually. <br><br>
+                                            You start a mapping process be clicking the butotn "Maping" on the index screen and thus selecting the "Origin Catalogue".<br><br>
+                                            On the first screen you can select the "Target Catalogue" as well a two other parameters. The two parameters may restrict hte mapping process. If the restriction cannot be fulfilled a second mathing will be made without the restriction. <br><br>
+                                            <b> Restrict to the same Structure Code: </b> This will restrict the matching process to a Structure Code. This structure code must be present in both Phrasecatalogues, e.g. two versions of hte EuPhraC where the structure Code is the EuPhraC Structure Code.<br><br>
+                                            <b> Restrict to the Same Group: </b> this will restrict the matching process to the Phrasegroup. This is useful if the Phrasecatalogues contain the same Phrases multiple times but in different Phrasegroups. If the matching catalogues uses Phrasegorups this option should be checked. <br>
+                                            The next screen is just an information screen the submitting will start the Mapping Process and that the following Process ma take some omre time. You may cancel the mapping only at this point as afterwards some references may be written. <br><br>
+                                            The automatic mapping process can be done in background. you may use any program and even your browser as long a this window is not effected. Internally, this functions uses AJAX- Requests to launch the mapping process. The current progress is indicated by the progressbar and the precetage value. It has two minutes neither progress nor value has changed, the mapping has run into a severe error. Please try again or ask your adminstrator for any help. <br><br>
+                                            After a successful run of the automatic mapping process, you'll get informed how many Phrases could be matched and how many Phrases must be reviewed manually.<br>
+                                            At this point (any at any later process) you may pause the review process and come back later. <br>
+                                            Submitting the button will ask you for the manual mapping for the first Phrase.<br>
+                                            At this prompt you may either select a reference, defer the Phrase for later review or pause the Mapping.
+                                            You'll see the current Phrase to be mapped on the top of the Page. Following after are displayed all possible Phrases to select for referencing and above of them the option not to reference the current Phrase.<br>
+                                            By selecting one of the options and submitting the form the match will be written into the reference table.<br>
+                                            Sumbmitting the "Defer"-button will put the Phrase at the end of the list, so that it can be reviewed later. <br>
+                                            You can always pause the mapping, but use the button for it whenever possible. Each entry in the temp table will be locked to a user if it is displayed to a user. <br>If you do not press the button, the lock will be removed for other users after two days.<br>
+                                            After pausing the mapping you'll get an information isplayed how to resume it. You can also select it from the main menu.<br>
+                                            Resuming the mapping will display a similar screen as the screen after the automatic process. <br>
+                                            You'll get an information how many Phrases have to be revived manually.<br>
+                                            <div> <a href="#topTopic">Return to Top </a></div>  
+
+                                            </p>
+
+                                            </div>
+                                            </div>
+
+
+                                    </div>
+                                </div>
+
                                 <div class="card">
                                     <div class="card-header">
-                                    <strong>Phrasetext Results</strong>
-                                   </div>
+                                         <h5 style="float: left;">Comparison of Catalogues</h5>
+                                    </div>
                                     <div class="card-body card-block">
-                                        <div>
-                                        <strong>The search has no results!</strong><br><br>
-                                        <i>Do you want to add to this phrase? </i>
-                                        <button type="button" class="btn btn-warning" style="margin-left:1.5em;">Add Phrase</button>
-                                    </div>
-                                    </div>
                                         
+                                            <div class="row">
+                                            <div class="col-md-6">
+                                            <p style="text-align: justify;">
+                                            Help is still under development!<br><br>
+
+                                            The Comparison is availabley for mapped Phrasecatalogues only!
+                                            With this specialised search function it is possible to find mappings, differences in mappings and missing mappings between two Phrasecatalogues. <br id="comparingCatalogues">
+
+                                            On the initial screen you can select the options for your comparison. If you have already compared two catalgues during your session, the old values will be restored.
+                                            First of all you have to select the "Origin Catalogue" and the "Target Catalogue" as well as a language. Only Phrases in the selected language will be displayed. If a reference is found but the Phrase is not found in the selected language, a link to the Phrasehead is displayed instead of the Phrase.
+                                            You may restrict the comparison in idfferent ways. In that way you can control the sucess of the mapping process and make some minor corrections to it. Please note: The two Phrasecatlogues must be mapped against each other in the same way as selected in the search field. The direction of the mapping is critical for this as mentioned above. <br>
+
+                                            Assuming you interested in all references, you select "No restrictions".
+                                            The selection form for the comparison will only be displayed if less than six entries were found, you may open it again by clicking the appropriate button.
+                                            If there are any results they will be displayed in the list. This list prints out the Id, which is just an identifier, and the referenced Phrasetexts in the selected language of both catalogues. You may change the language in the search options to get more details about the reference.
+                                            The list is separated in blocks of 25 records. The navigation bar is displayed below the listing. So you are able to review each and every mapping (reference) by scrolling and clicking through the pages.
+                                            Additionally (if you have the fitting privileges) you may also view and delete the reference.
+                                            <br><b>Please note:</b> It is not possible to recover any deletion process! Only if you really know what you are doing, than it is OK to use this funtions.<br>
+
+                                            A really useful restricted search option is the restriction to "Only in Origin Catalogue"
+                                            In the result list only those Phrases are displayed where no mapped Phrase in the "Target Catalogue" exists. That gives the option to review the mapping process and looking for missing data.
+                                            The main difference two the other screens is that on the "Target Catalogue" no data exists and thus only "NULL" is displayed. And instead of editing or deleting the reference you may copy the non-existing Phrase to a catalogue or add a reference using a custom search. By clicking on one of the buttons you'll be redirected to a new screen (see below). Also on this search it may be helpful to change the language to get further insights. <br>
+
+                                            Copying a Phrase does not only add an exact copy of a given Phrase to a catalogue but also add a refrence between the two Phrases.
+                                            You may copy the Phrase from the "Origin Catalogue" to any catalogue you own. As default the "Target Catalogue" is selected.
+                                            An exact duplicate will added to the selected catalogue and addtionally a referenc from the "Origin Catalogue" to the selected catalogue will be written, even if no mapping between bot catalogues has been done.<br> <b>Please note:</b> This function does not check for any copyright issues. So you must be sure that copying a Phrase from the "Origin Catalogue" is not restricted by copyright laws (or any other law). <br>
+
+                                            Alternatively you may add a refernce using a custom search.
+                                            Sometime there exists a similar Phrase in the "Target Catalogue" but the wording is quite different. In that circumstances the mapping process cannot find the possible reference.
+                                            On the other hand you may use a special search on the Phrase finding a possible reference.
+                                            It is recommended to use another tab for searching the Phrasetexts with the normal search function first and then copy the search string to this form. In that way it is most likely easier to find a possible reference.
+                                            The search form presented in this dialogue is more restricted and less tuneable than the main search function.
+                                            If any possible mapping was found, you'll get that displayed after submitting the search. Please select the best match and add a reference between "Origin Catalogue" and "Target Catalogue".<br>
+
+                                            <br>
+                                            <div> <a href="#topTopic">Return to Top </a></div>  
+                                             </p>
+
+                                            </div>
+                                            </div>
+
+
+                                    </div>
                                 </div>
-                            </div>
+
+                                </div>
+
+                                <!-- MODAL -->
+
+                              
 
 
-            
             <!-- 
             <section class="statistic">
                 <div class="section__content section__content--p30">
