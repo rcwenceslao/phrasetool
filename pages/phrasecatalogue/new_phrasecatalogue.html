@@ -1140,7 +1140,84 @@ color: white;
                                         </center>
                                         </div>
                                    </form>
-                                   
+                                   <div class="col col-md-12">
+                                                    <br>
+                                                    Timestamp<i style="color:red;">*</i><br>
+                                                    <div class="btn-group">
+                                                        <div class="col-12 col-md-12">
+                                                                <select name="select" id="select" class="form-control">
+                                                                    <option value="1">January</option>
+                                                                    <option value="2">February</option>
+                                                                    <option value="3">March</option>
+                                                                    <option value="4">April</option>
+                                                                    <option value="5">May</option>
+                                                                    <option value="6">June</option>
+                                                                    <option value="7">July</option>
+                                                                    <option value="8">August</option>
+                                                                    <option value="9">September</option>
+                                                                    <option value="10">October</option>
+                                                                    <option value="11">November</option>
+                                                                    <option value="12">December</option>
+                                                                </select>
+                                                        </div>
+                                                    </div>
+                                                    <div class="btn-group">
+                                                            <div class="col-12 col-md-12">
+                                                                <select name="select" id="select" class="form-control">
+                                                                    <?php
+
+                                                                    for ($x = 1; $x < 30; $x++){
+                                                                        echo "<option value=". $x .">". $x ."</option>";
+                                                                    }
+                                                                    ?>
+                                                                </select>
+                                                            </div>
+                                                    </div>
+                                                    <div class="btn-group">
+                                                            <div class="col-12 col-md-12">
+                                                                <select name="select" id="select" class="form-control">
+                                                                    <?php
+
+                                                                    for ($x = 1999; $x < 2040; $x++){
+                                                                        echo "<option value=". $x .">". $x ."</option>";
+                                                                    }
+                                                                    ?>
+                                                                </select>
+                                                            </div>
+                                                    </div>
+                                                    <div class="btn-group">
+                                                            <div class="col-12 col-md-12">
+                                                                <select name="select" id="select" class="form-control">
+                                                                    <?php
+
+                                                                    for ($x = 1; $x < 9; $x++){
+                                                                        echo "<option value=". $x .">". $x ."</option>";
+                                                                    }
+                                                                    ?>
+                                                                </select>
+                                                            </div>
+                                                    </div>
+                                                    <div class="btn-group">
+                                                            <div class="col-12 col-md-12">
+                                                                <select name="select" id="select" class="form-control">
+                                                                    <?php
+
+                                                                    for ($x = 00; $x < 60; $x++){
+                                                                        echo "<option value=". $x .">". $x ."</option>";
+                                                                    }
+                                                                    ?>
+                                                                </select>
+                                                            </div>
+                                                    </div>
+                                                    <div class="btn-group">
+                                                        <div class="col-12 col-md-12">
+                                                                <select name="select" id="select" class="form-control">
+                                                                    <option value="1">AM</option>
+                                                                    <option value="2">PM</option>
+                                                                </select>
+                                                        </div>
+                                                    </div>
+                                            </div>
                                 </div>
                             </div>
                             </div>

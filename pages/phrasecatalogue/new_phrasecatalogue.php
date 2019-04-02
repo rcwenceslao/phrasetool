@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<style type="text/css">
+
+.pagination a {
+color: black;
+float: left;
+padding: 8px 16px;
+text-decoration: none;
+transition: background-color .3s;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+background-color: dodgerblue;
+color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+</style>
+
 <head>
     <!-- Required meta tags-->
     <meta charset="UTF-8">
@@ -10,7 +31,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Admin ~ Phrasetool by Rimpido</title>
+    <title>New Phrase Catalogue</title>
 
     <!-- Fontfaces CSS-->
     <link href="../../css/font-face.css" rel="stylesheet" media="all">
@@ -34,27 +55,6 @@
     <!-- Main CSS-->
     <link href="../../css/theme.css" rel="stylesheet" media="all">
 
-    <style type="text/css">
-
-        .pagination a {
-          color: black;
-          float: left;
-          padding: 8px 16px;
-          text-decoration: none;
-          transition: background-color .3s;
-        }
-
-        /* Style the active/current link */
-        .pagination a.active {
-          background-color: dodgerblue;
-          color: white;
-        }
-
-        /* Add a grey background color on mouse-over */
-        .pagination a:hover:not(.active) {background-color: #ddd;}
-    
-    </style>
-
 </head>
 
 <body class="animsition">
@@ -69,14 +69,14 @@
             <div class="menu-sidebar2__content js-scrollbar1">
                 <div class="account2">
                     <div class="image img-cir img-120">
-                        <img src="../../images/icon/user.jpg" alt="User" />
+                        <img src="images/icon/user.jpg" alt="User" />
                     </div>
                     <h4 class="name">User</h4>
                     <a href="#">Sign out</a>
                 </div>
                 <nav class="navbar-sidebar2">
                     <ul class="list-unstyled navbar__list">
-                        <li class="has-sub">
+                        <li class=" has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-user"></i>User
                                 <span class="arrow">
@@ -113,7 +113,7 @@
                             </ul>
                         </li>
 
-                         <li class="has-sub">
+                         <li class=" has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-quote-left"></i>Phrasetext
                                 <span class="arrow">
@@ -122,19 +122,19 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="../phrasetext/phrasetext_landing.html">
+                                    <a href="index.html">
                                         <i class="fas fa-search"></i>Search Phrasetext</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasetext/missing_phrasetext.html">
+                                    <a href="index2.html">
                                         <i class="fas fa-exclamation-circle"></i>Missing Translation</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasetext/list_phraseheads.html">
+                                    <a href="index3.html">
                                         <i class="fas fa-list-ol"></i>List Phraseheads</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasetext/new_phrasehead.html">
+                                    <a href="index4.html">
                                         <i class="far fa-plus-square"></i>New Phrasehead</a>
                                 </li>
                                
@@ -142,7 +142,7 @@
                         </li>
 
 
-                         <li class=" has-sub">
+                         <li class="active has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-list-alt"></i>Phrasecatalogue
                                 <span class="arrow">
@@ -151,11 +151,11 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="list_and_map.html">
                                         <i class="fas fa-map-signs"></i>List and Map</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="new_phrasecatalogue.html">
                                         <i class="fas fa-plus"></i>New Phrasecatalogue</a>
                                 </li>
                                 <li>
@@ -194,7 +194,7 @@
                             </ul>
                         </li>
 
-                         <li class=" has-sub">
+                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-tag"></i>Label
                                 <span class="arrow">
@@ -203,11 +203,11 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="../label/list_label.html">
                                         <i class="fas fa-list"></i>List Labels</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="../label/new_label.html">
                                         <i class="fas fa-plus"></i>New Label</a>
                                 </li>
                                 
@@ -269,7 +269,7 @@
                             </ul>
                         </li>
 
-                        <li class="active has-sub">
+                        <li class=" has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-language"></i>Language
                                 <span class="arrow">
@@ -278,25 +278,27 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="../language/language_landing.html">
+                                    <a href="index.html">
                                         <i class="fas fa-list-ol"></i>List Languages</a>
                                 </li>
                                 <li>
-                                    <a href="../language/new_language.html">
+                                    <a href="index2.html">
                                         <i class="far fa-plus-square"></i>New Language</a>
                                 </li>
                                 <li>
-                                    <a href="../language/list_language_codes.html">
+                                    <a href="index3.html">
                                         <i class="far fa-list-alt"></i>List Language Codes</a>
                                 </li>
                                 <li>
-                                    <a href="../language/new_language_code.html">
+                                    <a href="index4.html">
                                         <i class="fas fa-folder-plus"></i>New Language Code</a>
                                 </li>
                                 <li>
-                                    <a href="../language/copy_language_code.html">
+                                    <a href="index4.html">
                                         <i class="far fa-clone"></i>Copy Language Codes</a>
                                 </li>
+                                
+                               
                             </ul>
                         </li>
                         <li class=" has-sub">
@@ -307,28 +309,28 @@
                                 </span>
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
-                                 <li>
-                                    <a href="admin_landing.php">
+                                <li>
+                                    <a href="index.html">
                                         <i class="far fa-calendar-alt"></i>Translations per month and user</a>
                                 </li>
                                 <li>
-                                    <a href="admin_not_translated.html">
+                                    <a href="index2.html">
                                         <i class="fas fa-exclamation"></i>Missing Translations of Languagetexts</a>
                                 </li>
                                 <li>
-                                    <a href="admin_country_not_translated.html">
+                                    <a href="index3.html">
                                         <i class="far fa-flag"></i>Missing Translations of Countrynames</a>
                                 </li>
                                 <li>
-                                    <a href="admin_company_list.html">
+                                    <a href="index4.html">
                                         <i class="fas fa-list"></i>List of Companies</a>
                                 </li>
                                 <li>
-                                    <a href="admin_new_company.html">
+                                    <a href="index4.html">
                                         <i class="far fa-plus-square"></i>New Company</a>
                                 </li>
                                 <li>
-                                    <a href="admin_credit_point.html">
+                                    <a href="index4.html">
                                         <i class="fas fa-coins"></i>List Creditpoints</a>
                                 </li>
                                 
@@ -500,7 +502,7 @@
                         <div class="header-wrap2">
                             <div class="logo d-block d-lg-none">
                                 <a href="#">
-                                    <img src="../../image/icon/logo-white.png" alt="CoolAdmin" />
+                                    <img src="image/icon/logo-white.png" alt="CoolAdmin" />
                                 </a>
                             </div>
                             <div class="header-button2">
@@ -600,17 +602,19 @@
                         </div>
                     </div>
                 </div>
+
+            <!-- TO DO: DIRECTORY PATHS -->
             </header>
             <aside class="menu-sidebar2 js-right-sidebar d-block d-lg-none">
                 <div class="logo">
                     <a href="#">
-                        <img src="../../images/icon/logo-white.png" alt="Cool Admin" />
+                        <img src="images/icon/logo-white.png" alt="Cool Admin" />
                     </a>
                 </div>
                 <div class="menu-sidebar2__content js-scrollbar2">
                     <div class="account2">
                         <div class="image img-cir img-120">
-                            <img src="../../images/icon/user.jpg" alt="User" />
+                            <img src="images/icon/user.jpg" alt="User" />
                         </div>
                         <h4 class="name">User</h4>
                         <a href="#">Sign out</a>
@@ -652,7 +656,7 @@
                             </ul>
                         </li>
 
-                         <li class="has-sub">
+                         <li class=" has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>Phrasetext
                                 <span class="arrow">
@@ -661,26 +665,27 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="../phrasetext/phrasetext_landing.html">
-                                        <i class="fas fa-search"></i>Search Phrasetext</a>
+                                    <a href="index.html">
+                                        <i class="fas fa-tachometer-alt"></i>Search Phrasetext</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasetext/missing_phrasetext.html">
-                                        <i class="fas fa-exclamation-circle"></i>Missing Translation</a>
+                                    <a href="index2.html">
+                                        <i class="fas fa-tachometer-alt"></i>Missing Translation</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasetext/list_phraseheads.html">
-                                        <i class="fas fa-list-ol"></i>List Phraseheads</a>
+                                    <a href="index3.html">
+                                        <i class="fas fa-tachometer-alt"></i>List Phraseheads</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasetext/new_phrasehead.html">
-                                        <i class="far fa-plus-square"></i>New Phrasehead</a>
+                                    <a href="index4.html">
+                                        <i class="fas fa-tachometer-alt"></i>New Phrasehead</a>
                                 </li>
-                               >
+                               
+                            </ul>
                         </li>
 
 
-                         <li class=" has-sub">
+                         <li class="active has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>Phrasecatalogue
                                 <span class="arrow">
@@ -689,11 +694,11 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="list_and_map.html">
                                         <i class="fas fa-tachometer-alt"></i>List and Map</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="new_phrasecatalogue.html">
                                         <i class="fas fa-tachometer-alt"></i>New Phrasecatalogue</a>
                                 </li>
                                 <li>
@@ -718,7 +723,7 @@
                                 </li>
                                 <li>
                                     <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>New Phrase Group</a>
+                                        <i clas="sfas fa-tachometer-alt"></i>New Phrase Group</a>
                                 </li>
                                 <li>
                                     <a href="index4.html">
@@ -732,7 +737,7 @@
                             </ul>
                         </li>
 
-                         <li class=" has-sub">
+                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>Label
                                 <span class="arrow">
@@ -741,11 +746,11 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="../label/list_label.html">
                                         <i class="fas fa-tachometer-alt"></i>List Labels</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="../label/new_label.html">
                                         <i class="fas fa-tachometer-alt"></i>New Label</a>
                                 </li>
                                 
@@ -807,7 +812,7 @@
                             </ul>
                         </li>
 
-                        <li class="active has-sub">
+                        <li class=" has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>Language
                                 <span class="arrow">
@@ -816,25 +821,27 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="language_landing.html">
-                                        <i class="fas fa-list-ol"></i>List Languages</a>
+                                    <a href="index.html">
+                                        <i class="fas fa-tachometer-alt"></i>List Languages</a>
                                 </li>
                                 <li>
-                                    <a href="new_language.html">
-                                        <i class="far fa-plus-square"></i>New Language</a>
+                                    <a href="index2.html">
+                                        <i class="fas fa-tachometer-alt"></i>New Language</a>
                                 </li>
                                 <li>
-                                    <a href="list_language_codes.html">
-                                        <i class="far fa-list-alt"></i>List Language Codes</a>
+                                    <a href="index3.html">
+                                        <i class="fas fa-tachometer-alt"></i>List Language Codes</a>
                                 </li>
                                 <li>
-                                    <a href="new_language_code.html">
-                                        <i class="fas fa-folder-plus"></i>New Language Code</a>
+                                    <a href="index4.html">
+                                        <i class="fas fa-tachometer-alt"></i>New Language Code</a>
                                 </li>
                                 <li>
-                                    <a href="copy_language_code.html">
-                                        <i class="far fa-clone"></i>Copy Language Codes</a>
+                                    <a href="index4.html">
+                                        <i class="fas fa-tachometer-alt"></i>Copy Language Codes</a>
                                 </li>
+                                
+                               
                             </ul>
                         </li>
                         <li class=" has-sub">
@@ -845,29 +852,29 @@
                                 </span>
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
-                                 <li>
-                                    <a href="admin_landing.php">
-                                        <i class="far fa-calendar-alt"></i>Translations per month and user</a>
+                                <li>
+                                    <a href="index.html">
+                                        <i class="fas fa-tachometer-alt"></i>Translations per month and user</a>
                                 </li>
                                 <li>
-                                    <a href="admin_not_translated.html">
-                                        <i class="fas fa-exclamation"></i>Missing Translations of Languagetexts</a>
+                                    <a href="index2.html">
+                                        <i class="fas fa-tachometer-alt"></i>Missing Translations of Languagetexts</a>
                                 </li>
                                 <li>
-                                    <a href="admin_country_not_translated.html">
-                                        <i class="far fa-flag"></i>Missing Translations of Countrynames</a>
+                                    <a href="index3.html">
+                                        <i class="fas fa-tachometer-alt"></i>Missing Translations of Countrynames</a>
                                 </li>
                                 <li>
-                                    <a href="admin_company_list.html">
-                                        <i class="fas fa-list"></i>List of Companies</a>
+                                    <a href="index4.html">
+                                        <i class="fas fa-tachometer-alt"></i>List of Companies</a>
                                 </li>
                                 <li>
-                                    <a href="admin_new_company.html">
-                                        <i class="far fa-plus-square"></i>New Company</a>
+                                    <a href="index4.html">
+                                        <i class="fas fa-tachometer-alt"></i>New Company</a>
                                 </li>
                                 <li>
-                                    <a href="admin_credit_point.html">
-                                        <i class="fas fa-coins"></i>List Creditpoints</a>
+                                    <a href="index4.html">
+                                        <i class="fas fa-tachometer-alt"></i>List Creditpoints</a>
                                 </li>
                                 
                                
@@ -1040,12 +1047,12 @@
                                         <span class="au-breadcrumb-span">You are here:</span>
                                         <ul class="list-unstyled list-inline au-breadcrumb__list">
                                             <li class="list-inline-item active">
-                                                <a href="#">Language</a>
+                                                <a href="list_label.html">Phrase Catalogue</a>
                                             </li>
                                             <li class="list-inline-item seprate">
                                                 <span>/</span>
                                             </li>
-                                            <li class="list-inline-item">List Language Codes</li>
+                                            <li class="list-inline-item">NEW PHRASE CATALOGUE</li>
                                         </ul>
                                     </div>
                                     <!--
@@ -1058,135 +1065,140 @@
                     </div>
                 </div>
             </section>
-            <!-- END BREADCRUMB-->
 
+            <!-- START OF LIST LABEL DETAILS -->
 
-            <!-- Container Start -->
-            <center>
-                <div class="col-lg-12">
-                                <div class="card">
-                                    <div class="card-header">
-                                        <strong>Select Restrictions </strong>
-                                   </div>
-                                    <div class="card-body card-block">
-                                        <form action="" method="post" class="form-horizontal">
-                                        <div class="row form-group">
-                                                <div class="col col-md-12">
-                                                    <br>
-                                                    Company<i style="color: red;">*</i> <br>
+            <!-- FIRST CONTAINER -->
+            <br>
+              <section>
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="statistic__item">
+
+                                    <h2>NEW PHRASE CATALOGUE</h2>
+                                    <br>
+                                    Input the following fields to create a new Phrase Catalogue.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECOND CONTAINER -->
+
+            <section>
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class = "task-progress">
+                                   
+                                   <form class="form-horizontal" action="#">
+                                    <!-- THIS FIELD MUST BE SET -->
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-3" for="katalogpin"><b>Katalog Pin:</b></label>
+                                        <div class="col-sm-12">
+                                            <input type="text" class="form-control" id="katalogpin" placeholder="Enter katalog Pin" name="katalogpin">
+                                        </div>
+                                    </div>
+                                    <!-- THIS FIELD MUST BE SET -->
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-3" for="cataloguedistributor"><b>Catalogue distributor:</b></label>
+                                        <div class="col-sm-12">
+                                            <input type="text" class="form-control" id="cataloguedistributor" placeholder="Enter Distributor" name="cataloguedistributor">
+                                        </div>
+                                    </div>
+                                    <!-- THIS FIELD MUST BE SET -->
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-3" for="catalogueversion"><b>Catalogue Version:</b></label>
+                                        <div class="col-sm-12">
+                                            <input type="text" class="form-control" id="catalogueversion" placeholder="Enter Version" name="catalogueversion">
+                                        </div>
+                                    </div>
+                                    <!-- THIS FIELD MUST BE SET -->
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-3"><b>Catalogue Date:</b></label>
+                                        <div class="col col-md-12">
                                                     <div class="btn-group">
                                                         <div class="col-12 col-md-12">
                                                                 <select name="select" id="select" class="form-control">
-                                                                    <option value="1">Rimpido GMBH</option>
-                                                                    <option value="2">Docogan</option>
+                                                                    <option value="1">January</option>
+                                                                    <option value="2">February</option>
+                                                                    <option value="3">March</option>
+                                                                    <option value="4">April</option>
+                                                                    <option value="5">May</option>
+                                                                    <option value="6">June</option>
+                                                                    <option value="7">July</option>
+                                                                    <option value="8">August</option>
+                                                                    <option value="9">September</option>
+                                                                    <option value="10">October</option>
+                                                                    <option value="11">November</option>
+                                                                    <option value="12">December</option>
                                                                 </select>
                                                         </div>
                                                     </div>
-                                                    <div class="row form-group">
-                                                <div class="col col-md-12">
-                                                    <label class=" form-control-label"><br>Expenses</label>
-                                                </div>
-                                                <div class="col col-md-12">
-                                                    <div class="form-check">
-                                                        <div class="radio">
-                                                            <label for="radio1" class="form-check-label ">
-                                                                <input type="radio" id="radio1" name="radios" value="option1" class="form-check-input">Expenses
-                                                            </label>
-                                                        </div>
-                                                        <div class="radio">
-                                                            <label for="radio2" class="form-check-label ">
-                                                                <input type="radio" id="radio2" name="radios" value="option2" class="form-check-input">Receipts
-                                                            </label>
-                                                        </div>
+                                                    <div class="btn-group">
+                                                            <div class="col-12 col-md-12">
+                                                                <select name="select" id="select" class="form-control">
+                                                                    <?php
+
+                                                                    for ($x = 1; $x < 30; $x++){
+                                                                        echo "<option value=". $x .">". $x ."</option>";
+                                                                    }
+                                                                    ?>
+                                                                </select>
+                                                            </div>
                                                     </div>
-                                                </div>
+                                                    <div class="btn-group">
+                                                            <div class="col-12 col-md-12">
+                                                                <select name="select" id="select" class="form-control">
+                                                                    <?php
+
+                                                                    for ($x = 1999; $x < 2040; $x++){
+                                                                        echo "<option value=". $x .">". $x ."</option>";
+                                                                    }
+                                                                    ?>
+                                                                </select>
+                                                            </div>
+                                                    </div>
                                             </div>
-                                                </div>
-                                        </div>
-                                        </form>
-                                        <button type="submit" class="btn btn-success btn-sm">
-                                                        <i class="fa fa-dot-circle-o"></i> Submit
-                                        </button>                        
                                     </div>
-                                    <div class="card-header">
-                                        <strong>Credit Points</strong>
-                                   </div>
-                                   <div class="card-body card-block">
-                                       <div class = "task-progress">
-                                        <div class="table-responsive">
-                                        <table class="table table-hover">
-                                        <thead>
-                                        <tr>
-                                        <th>Credit Point</th>
-                                        <th>Phrasetext</th>
-                                        <th>Company</th>
-                                        <th>Value</th>
-                                        <th>User</th>
-                                        <th>Actions</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                        <tr>
-                                        <td>Data 1</td>
-                                        <td>Data 2</td>
-                                        <td>Data 3</td>
-                                        <td>Data 3</td>
-                                        <td>Data 4</td>
-                                        <td>
-
-                                        <div>
-                                        <button type="button" class="btn btn-warning btn-sm"><a href="view_language_code.html" style="color:black;">View</a></button>
-                                        <button type="button" class="btn btn-warning btn-sm"><a href="edit_language_code.html" style="color: black;">Edit</a></button>
-                                        <button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#deletePhraseHead">Delete</button>
-
+                                    <!-- THIS FIELD MUST BE SET -->
+                                    <div class="form-group">
+                                        <label class="control-label col-sm-3" for="numberrange"><b>Number Range:</b></label>
+                                        <div class="col-sm-12">
+                                            <input type="text" class="form-control" id="numberrange" placeholder="Enter Number Range" name="numberrange">
                                         </div>
-                                        </td>
-                                        </tr>
+                                    </div>
+                                    
+                                   
+                                            <br>
 
-                                        </tbody>
-                                        </table>
+                                            <div class="form-group">
+                                        <center> 
+                                          <div class="col-sm-offset-2 col-sm-12">
+                                            <button type="submit" class="btn btn-warning">Submit</button>
+                                          </div>
+                                        </center>
                                         </div>
-                                        </div>
-                                        <div class="pagination" style="margin-left:20em;">
-                                            <a href="#"><<</a>
-                                            <a href="#">1</a>
-                                            <a href="#">2</a>
-                                            <a href="#">3</a>
-                                            <a href="#">4</a>
-                                            <a href="#">5</a>
-                                            <a href="#">>></a>
-                                        </div>
-                                   </div>
-
+                                   </form>
                                 </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </center>
+            </section>
+
+            <section>
+
+            <!-- END OF LABEL LIST DETAILS -->
 
 
-            <!-- MODAL -->
-
-                                <div class="modal fade" id="deletePhraseHead" tabindex="-1" role="dialog" aria-labelledby="smallmodalLabel" aria-hidden="true">
-                                     <div class="modal-dialog modal-sm" role="document">
-                                        <div class="modal-content">
-                                           <div class="modal-header">
-                                                 <h5 class="modal-title" id="smallmodalLabel">Confirm Deletion?</h5>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                           </div>
-                                <div class="modal-body">
-                                    <p>
-                                        Are you sure you want to delete this Credit Point?
-                                    </p>
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
-                                    <button type="button" class="btn btn-primary">Confirm</button>
-                                </div>
-                                        </div>
-                                    </div>
-                                </div>
-
+            <!-- END BREADCRUMB-->
 
             <!-- 
             <section class="statistic">

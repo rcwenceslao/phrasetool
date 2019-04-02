@@ -44,7 +44,7 @@ color: white;
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Phrasecatalogue Comparison</title>
+    <title>New Phrasehead-Phrasehead Reference</title>
 
     <!-- Fontfaces CSS-->
     <link href="../../css/font-face.css" rel="stylesheet" media="all">
@@ -1167,97 +1167,65 @@ color: white;
             <!-- START OF LIST LABEL DETAILS -->
 
             <!-- FIRST CONTAINER -->
-            <br>
-              <section>
+            <section class="statistic">
                 <div class="section__content section__content--p30">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class="statistic__item">
 
-                                    <h2>SELECT CATALOGUES TO COMPARE</h2>
+                                    <h2>NEW PHRASEHEAD-PHRASEHEAD-REFERENCE</h2>
                                     <br>
-                                    <button type="button" class="btn btn-outline-warning" onclick="showDiv()">Show Catalogue Select</button>
-                                    <br><br>
-                                        <div class="task-progress" id="hiddenDiv" style="display:none">
-                                            <form class="form-horizontal" action="#" >
-                                                <div class="container">
-                                                 <div class="row">
-                                                    <div class="col-md-4">
-                                                        <font size="3"> Original Catalogue </font> <br>
-                                                         <select name="origcatalogue" class="custom-select mb-3" required>
-                                                            <option value="EuPC" selected> EuPC </option>
-                                                            <option value="BDI"> BDI </option>
-                                                            <option value="EPOS"> EPOS </option>
-                                                            <option value="KRKA"> KRKA </option>
-                                                            <option value="ZSM"> ZSM </option>
-                                                            <option value="ACT01"> ACT01 </option>
-                                                            <option value="ACT20"> ACT20 </option>
-                                                            <option value="ZKSA"> ZKSA </option>
-                                                            <option value="ARIEL"> ARIEL </option>
-                                                            <option value="CED"> CED </option>
-                                                            <option value="eu_phra"> eu_phra </option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="col-md-4">
-                                                        <font size="3"> Target Catalogue </font> <br>
-                                                         <select name="targetcatalogue" class="custom-select mb-3" required>
-                                                            <option value="zzepla" selected> zzepla </option>
-                                                            <option value="BDI"> BDI </option>
-                                                            <option value="EPOS"> EPOS </option>
-                                                            <option value="KRKA"> KRKA </option>
-                                                            <option value="ZSM"> ZSM </option>
-                                                            <option value="ACT01"> ACT01 </option>
-                                                            <option value="ACT20"> ACT20 </option>
-                                                            <option value="ZKSA"> ZKSA </option>
-                                                            <option value="ARIEL"> ARIEL </option>
-                                                            <option value="CED"> CED </option>
-                                                            <option value="eu_phra"> eu_phra </option>
-                                                        </select>
-                                                    </div>
-                                                    <!-- DATABASE DRIVEN LIST -->
-                                                    <div class="col-md-4">
-                                                        <font size="3"> Language </font> <br>
-                                                         <select name="language" class="custom-select mb-3" required>
-                                                            <option value="en" selected> English - en </option>
-                                                        </select>
-                                                    </div>
-                                                </div> 
-                                                Please select two different catalogues which have been mapped against each other before.
-                                                <br><br>
-                                                <div class="radio" name="catalogue">
-                                                  <label><input type="radio" name="norestrictions"> No restrictions</label>
-                                                </div>
-                                                <div class="radio">
-                                                  <label><input type="radio" name="origincatalogue"> Only in Origin Catalogue</label>
-                                                </div>
-                                                <div class="radio">
-                                                  <label><input type="radio" name="differentgroup"> Only with different Groups</label>
-                                                </div>
-                                                <div class="radio">
-                                                  <label><input type="radio" name="differentstructurecode"> Only with different Structure Code</label>
-                                                </div>
-                                                <div class="radio">
-                                                  <label><input type="radio" name="difference"> Only with Differences</label>
-                                                </div>
+                                    <form class="form-horizontal" action="#">
+                                     <div class="form-group">
+                                          <label class="control-label col-sm-2" for="unnummer"><b>Phrasehead:<font style="color:red;">*</font></b></label>
+                                          <div class="col-sm-12">          
+                                            <select class= "form-control" name="phrasehead">
 
-                                                 <div class="form-group">
-                                                    <center> 
-                                                      <div class="col-sm-offset-2 col-sm-12">
-                                                        <button type="submit" class="btn btn-warning">Submit</button>
-                                                      </div>
-                                                    </center>
-                                                </div>
-                                            </form>
-                                        </div>
- 
+                                                <!-- PHRASE HEAD OPTION VALUE FROM DB -->
+
+                                                <option value="5036">5036</option>
+                                                <option value="9078">9078</option>
+                                                <option value="5037">5037</option>
+                                                <option value="5038">5038</option>
+                                                <option value="5039">5039</option>
+
+                                            </select>
+                                            
+                                          </div>
+                                      </div>
+                                      <div class="form-group">
+                                          <label class="control-label col-sm-2" for="unnummer"><b>Ref Phrasenkopf:<font style="color:red;">*</font></b></label>
+                                          <div class="col-sm-12">          
+                                            <select class= "form-control" name="phrasehead">
+
+                                                <!-- PHRASE HEAD OPTION VALUE FROM DB -->
+
+                                                <option value="#"></option>
+                                                <option value="#"></option>
+                                                <option value="#"></option>
+                                                <option value="#"></option>
+                                                <option value="#"></option>
+
+                                            </select>
+                                            
+                                          </div>
+                                      </div>
+                                      <br>
+                                      <div class="form-group">
+                                        <center> 
+                                            <div class="col-sm-offset-2 col-sm-12">
+                                               <button type="submit" class="btn btn-warning">Submit</button>
+                                           </div>
+                                        </center>
+                                     </div>
+                                  </form>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-
             <!-- SECOND CONTAINER -->
 
             <section>
@@ -1266,12 +1234,8 @@ color: white;
                         <div class="row">
                             <div class="col-xl-12">
                                 <div class = "task-progress">  
-                                    
-                                    <!-- OUTPUT RESULT HERE FOR SELECT CATALOGUES TO COMPARE -->
-
-                                    Your search has no results!
-                                  
-                                   
+                                  <font size="5"> ACTIONS </font>
+                                  <hr>
                                 </div>
                             </div>
                             </div>
