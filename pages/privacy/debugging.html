@@ -13,27 +13,45 @@
     <title>Dashboard</title>
 
     <!-- Fontfaces CSS-->
-    <link href="css/font-face.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
-    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="../../css/font-face.css" rel="stylesheet" media="all">
+    <link href="../../vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
 
     <!-- Bootstrap CSS-->
-    <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
 
     <!-- Vendor CSS-->
-    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
-    <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
-    <link href="vendor/wow/animate.css" rel="stylesheet" media="all">
-    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
-    <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
-    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
-    <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
-    <link href="vendor/vector-map/jqvmap.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/wow/animate.css" rel="stylesheet" media="all">
+    <link href="../../vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="../../vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+    <link href="../../vendor/vector-map/jqvmap.min.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
-    <link href="css/theme.css" rel="stylesheet" media="all">
+    <link href="../../css/theme.css" rel="stylesheet" media="all">
+<style>
+.help-content{
+    text-align: left !important;
+}
+.help-content li {
+    margin-left: 50px;
+    color:#000;
+}
+.help-content li a{
+    color: orange;
+}
+.help-content p{
+    text-align: justify;
+}
+.list-of-list li {
+    margin-left:80px;
+}
 
+</style>
 </head>
 
 <body class="animsition">
@@ -48,7 +66,7 @@
             <div class="menu-sidebar2__content js-scrollbar1">
                 <div class="account2">
                     <div class="image img-cir img-120">
-                        <img src="images/icon/user.jpg" alt="User" />
+                        <img src="../../images/icon/user.jpg" alt="User" />
                     </div>
                     <h4 class="name">User</h4>
                     <a href="#">Sign out</a>
@@ -68,11 +86,11 @@
                                         <i class="fas fa-users"></i>List Of Users</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="pages/user/add-user.html">
                                         <i class="fas fa-user-plus"></i>New User</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
+                                    <a href="pages/user/edit-profile.html">
                                         <i class="fas fa-edit"></i>Edit Own Profile</a>
                                 </li>
                                 <li>
@@ -83,12 +101,12 @@
                                     <a href="index4.html">
                                         <i class="far fa-edit"></i>Edit Company</a>
                                 </li>
-                                <!--
+                                
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="pages/user/system-status.html">
                                         <i class="fas fa-tachometer-alt"></i>System Status</a>
                                 </li>
-                            -->
+                           
                             </ul>
                         </li>
 
@@ -101,11 +119,11 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="pages/phrasetext/phrasetext_landing.html">
                                         <i class="fas fa-search"></i>Search Phrasetext</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="pages/phrasetext/missingphrasetext.html">
                                         <i class="fas fa-exclamation-circle"></i>Missing Translation</a>
                                 </li>
                                 <li>
@@ -121,7 +139,7 @@
                         </li>
 
 
-                        <li class="has-sub">
+                         <li class=" has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-list-alt"></i>Phrasecatalogue
                                 <span class="arrow">
@@ -130,52 +148,20 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="pages/phrasecatalogue/list_and_map.html">
+                                    <a href="index.html">
                                         <i class="fas fa-map-signs"></i>List and Map</a>
                                 </li>
                                 <li>
-                                    <a href="pages/phrasecatalogue/new_phrasecatalogue.html">
+                                    <a href="index2.html">
                                         <i class="fas fa-plus"></i>New Phrasecatalogue</a>
                                 </li>
-                                <li class="has-sub">
-                                    <a class="js-arrow" href="#">
-                                        <i class="fas fa-file-download"></i>Import
-                                        <span class="arrow">
-                                           <i class="fas fa-angle-down"></i>
-                                        </span>
-                                    </a>
-                                    <ul class= "list-unstyled navbar__sub-list js-sub-list">
-                                        <li>
-                                            <a href="pages/phrasecatalogue/phrasecatalogue_import.html">
-                                                <i class="fas fa-file-download"></i>Phrasecatalogue Import
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="pages/phrasecatalogue/phraseset_import.html">
-                                                <i class="fas fa-file-download"></i>Phraseset Import
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="pages/phrasecatalogue/propertytree_import.html">
-                                                <i class="fas fa-file-download"></i>Propertytree Import
-                                            </a>
-                                        </li>
-
-                                    </ul>
+                                <li>
+                                    <a href="index3.html">
+                                        <i class="fas fa-file-download"></i>Phrasecatalogue Import</a>
                                 </li>
-                                <li class="has-sub">
-                                    <a class="js-arrow" href="#">
-                                        <i class="fas fa-file-export"></i>Export
-                                        <span class="arrow">
-                                            <i class="fas fa-angle-down"></i>
-                                    </a>
-                                    <ul class = "list-unstyled navbar__sub-list js-sub-list">
-                                        <li>
-                                            <a href="#">
-                                                <i class="fas fa-file-export"></i>Phrasecatalogue Export
-                                            </a>
-                                        </li>
-                                    </ul>
+                                <li>
+                                    <a href="index4.html">
+                                        <i class="fas fa-file-export"></i>Phrasecatalogue Export</a>
                                 </li>
                                 <li>
                                     <a href="index4.html">
@@ -214,11 +200,11 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="pages/label/list_label.html">
+                                    <a href="index.html">
                                         <i class="fas fa-list"></i>List Labels</a>
                                 </li>
                                 <li>
-                                    <a href="pages/label/new_label.html">
+                                    <a href="index2.html">
                                         <i class="fas fa-plus"></i>New Label</a>
                                 </li>
                                 
@@ -357,7 +343,7 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="pages/help/help-user.html">
+                                    <a href="index.html">
                                         <i class="far fa-file-alt"></i>User Data and Registration</a>
                                 </li>
                                 <li>
@@ -1061,7 +1047,7 @@
                                             <li class="list-inline-item seprate">
                                                 <span>/</span>
                                             </li>
-                                            <li class="list-inline-item">Dashboard</li>
+                                            <li class="list-inline-item">Help on Import and Export</li>
                                         </ul>
                                     </div>
                                     <!--
@@ -1075,6 +1061,27 @@
                 </div>
             </section>
             <!-- END BREADCRUMB-->
+            <center>
+                <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        
+                                   </div>
+                                    <div class="card-body card-block">
+                                        
+                                     <div class="help-content">
+                                        <h4>DEBUGGING PAGES</h4><hr>
+                                        <p>
+                                            This is an internal page and shouldn't bother you anyway.<br><br>
+
+                                            If you encounter any problems or you get this page displayed very often, please consider to send us an email!
+                                        </p>
+                                        
+                               
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
 
             <!-- 
             <section class="statistic">
@@ -1494,32 +1501,32 @@
     </div>
 
     <!-- Jquery JS-->
-    <script src="vendor/jquery-3.2.1.min.js"></script>
+    <script src="../../vendor/jquery-3.2.1.min.js"></script>
     <!-- Bootstrap JS-->
-    <script src="vendor/bootstrap-4.1/popper.min.js"></script>
-    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <script src="../../vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="../../vendor/bootstrap-4.1/bootstrap.min.js"></script>
     <!-- Vendor JS       -->
-    <script src="vendor/slick/slick.min.js">
+    <script src="../../vendor/slick/slick.min.js">
     </script>
-    <script src="vendor/wow/wow.min.js"></script>
-    <script src="vendor/animsition/animsition.min.js"></script>
-    <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+    <script src="../../vendor/wow/wow.min.js"></script>
+    <script src="../../vendor/animsition/animsition.min.js"></script>
+    <script src="../../vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
     </script>
-    <script src="vendor/counter-up/jquery.waypoints.min.js"></script>
-    <script src="vendor/counter-up/jquery.counterup.min.js">
+    <script src="../../vendor/counter-up/jquery.waypoints.min.js"></script>
+    <script src="../../vendor/counter-up/jquery.counterup.min.js">
     </script>
-    <script src="vendor/circle-progress/circle-progress.min.js"></script>
-    <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script src="vendor/chartjs/Chart.bundle.min.js"></script>
-    <script src="vendor/select2/select2.min.js">
+    <script src="../../vendor/circle-progress/circle-progress.min.js"></script>
+    <script src="../../vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="../../vendor/chartjs/Chart.bundle.min.js"></script>
+    <script src="../../vendor/select2/select2.min.js">
     </script>
-    <script src="vendor/vector-map/jquery.vmap.js"></script>
-    <script src="vendor/vector-map/jquery.vmap.min.js"></script>
-    <script src="vendor/vector-map/jquery.vmap.sampledata.js"></script>
-    <script src="vendor/vector-map/jquery.vmap.world.js"></script>
+    <script src="../../vendor/vector-map/jquery.vmap.js"></script>
+    <script src="../../vendor/vector-map/jquery.vmap.min.js"></script>
+    <script src="../../vendor/vector-map/jquery.vmap.sampledata.js"></script>
+    <script src="../../vendor/vector-map/jquery.vmap.world.js"></script>
 
     <!-- Main JS-->
-    <script src="js/main.js"></script>
+    <script src="../../js/main.js"></script>
 
 </body>
 

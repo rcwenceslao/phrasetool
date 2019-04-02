@@ -13,27 +13,45 @@
     <title>Dashboard</title>
 
     <!-- Fontfaces CSS-->
-    <link href="css/font-face.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
-    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="../../css/font-face.css" rel="stylesheet" media="all">
+    <link href="../../vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
 
     <!-- Bootstrap CSS-->
-    <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
 
     <!-- Vendor CSS-->
-    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
-    <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
-    <link href="vendor/wow/animate.css" rel="stylesheet" media="all">
-    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
-    <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
-    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
-    <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
-    <link href="vendor/vector-map/jqvmap.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/wow/animate.css" rel="stylesheet" media="all">
+    <link href="../../vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="../../vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+    <link href="../../vendor/vector-map/jqvmap.min.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
-    <link href="css/theme.css" rel="stylesheet" media="all">
+    <link href="../../css/theme.css" rel="stylesheet" media="all">
+<style>
+.help-content{
+    text-align: left !important;
+}
+.help-content li {
+    margin-left: 50px;
+    color:#000;
+}
+.help-content li a{
+    color: orange;
+}
+.help-content p{
+    text-align: justify;
+}
+.list-of-list li {
+    margin-left:80px;
+}
 
+</style>
 </head>
 
 <body class="animsition">
@@ -48,7 +66,7 @@
             <div class="menu-sidebar2__content js-scrollbar1">
                 <div class="account2">
                     <div class="image img-cir img-120">
-                        <img src="images/icon/user.jpg" alt="User" />
+                        <img src="../../images/icon/user.jpg" alt="User" />
                     </div>
                     <h4 class="name">User</h4>
                     <a href="#">Sign out</a>
@@ -68,11 +86,11 @@
                                         <i class="fas fa-users"></i>List Of Users</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="pages/user/add-user.html">
                                         <i class="fas fa-user-plus"></i>New User</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
+                                    <a href="pages/user/edit-profile.html">
                                         <i class="fas fa-edit"></i>Edit Own Profile</a>
                                 </li>
                                 <li>
@@ -83,12 +101,12 @@
                                     <a href="index4.html">
                                         <i class="far fa-edit"></i>Edit Company</a>
                                 </li>
-                                <!--
+                                
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="pages/user/system-status.html">
                                         <i class="fas fa-tachometer-alt"></i>System Status</a>
                                 </li>
-                            -->
+                           
                             </ul>
                         </li>
 
@@ -101,11 +119,11 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="pages/phrasetext/phrasetext_landing.html">
                                         <i class="fas fa-search"></i>Search Phrasetext</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="pages/phrasetext/missingphrasetext.html">
                                         <i class="fas fa-exclamation-circle"></i>Missing Translation</a>
                                 </li>
                                 <li>
@@ -121,7 +139,7 @@
                         </li>
 
 
-                        <li class="has-sub">
+                         <li class=" has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-list-alt"></i>Phrasecatalogue
                                 <span class="arrow">
@@ -130,52 +148,20 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="pages/phrasecatalogue/list_and_map.html">
+                                    <a href="index.html">
                                         <i class="fas fa-map-signs"></i>List and Map</a>
                                 </li>
                                 <li>
-                                    <a href="pages/phrasecatalogue/new_phrasecatalogue.html">
+                                    <a href="index2.html">
                                         <i class="fas fa-plus"></i>New Phrasecatalogue</a>
                                 </li>
-                                <li class="has-sub">
-                                    <a class="js-arrow" href="#">
-                                        <i class="fas fa-file-download"></i>Import
-                                        <span class="arrow">
-                                           <i class="fas fa-angle-down"></i>
-                                        </span>
-                                    </a>
-                                    <ul class= "list-unstyled navbar__sub-list js-sub-list">
-                                        <li>
-                                            <a href="pages/phrasecatalogue/phrasecatalogue_import.html">
-                                                <i class="fas fa-file-download"></i>Phrasecatalogue Import
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="pages/phrasecatalogue/phraseset_import.html">
-                                                <i class="fas fa-file-download"></i>Phraseset Import
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="pages/phrasecatalogue/propertytree_import.html">
-                                                <i class="fas fa-file-download"></i>Propertytree Import
-                                            </a>
-                                        </li>
-
-                                    </ul>
+                                <li>
+                                    <a href="index3.html">
+                                        <i class="fas fa-file-download"></i>Phrasecatalogue Import</a>
                                 </li>
-                                <li class="has-sub">
-                                    <a class="js-arrow" href="#">
-                                        <i class="fas fa-file-export"></i>Export
-                                        <span class="arrow">
-                                            <i class="fas fa-angle-down"></i>
-                                    </a>
-                                    <ul class = "list-unstyled navbar__sub-list js-sub-list">
-                                        <li>
-                                            <a href="#">
-                                                <i class="fas fa-file-export"></i>Phrasecatalogue Export
-                                            </a>
-                                        </li>
-                                    </ul>
+                                <li>
+                                    <a href="index4.html">
+                                        <i class="fas fa-file-export"></i>Phrasecatalogue Export</a>
                                 </li>
                                 <li>
                                     <a href="index4.html">
@@ -214,11 +200,11 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="pages/label/list_label.html">
+                                    <a href="index.html">
                                         <i class="fas fa-list"></i>List Labels</a>
                                 </li>
                                 <li>
-                                    <a href="pages/label/new_label.html">
+                                    <a href="index2.html">
                                         <i class="fas fa-plus"></i>New Label</a>
                                 </li>
                                 
@@ -357,7 +343,7 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="pages/help/help-user.html">
+                                    <a href="index.html">
                                         <i class="far fa-file-alt"></i>User Data and Registration</a>
                                 </li>
                                 <li>
@@ -1061,7 +1047,7 @@
                                             <li class="list-inline-item seprate">
                                                 <span>/</span>
                                             </li>
-                                            <li class="list-inline-item">Dashboard</li>
+                                            <li class="list-inline-item">Privacy Statement </li>
                                         </ul>
                                     </div>
                                     <!--
@@ -1075,6 +1061,154 @@
                 </div>
             </section>
             <!-- END BREADCRUMB-->
+            <center>
+                <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        
+                                   </div>
+                                    <div class="card-body card-block">
+                                        
+                                     <div class="help-content">
+
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3>PRIVACY STATEMENT (PRIVACY)</h3><hr>
+                                                <p>
+                                                   Wir, die Rimpido GmbH, nehmen den Schutz Ihrer persönlichen Daten sehr ernst und halten uns strikt an die Regeln der Datenschutzgesetze. Personenbezogene Daten werden auf dieser Webseite nur im technisch notwendigen Umfang erhoben. In keinem Fall werden die erhobenen Daten verkauft oder aus anderen Gründen an Dritte weitergegeben.<br><br>
+
+                                                    Der Betrieb einer Webseite führt in jedem Fall zur automatisierten Verarbeitung personenbezogener Daten. An dieser Stelle informieren wir Sie entsprechend unserer gesetzlichen Verpflichtung gemäß Art. 13 DSGVO.<br><br>
+
+                                                    Diese Datenschutzerklärung gilt für alle von der rimpido GmbH betriebenen Webseiten der Domainen: www.rimpido.* ; www.phrase-catalog.* ; www.chemistry-service.* . 
+                                                </p>
+                                           </div>    
+
+                                        </div><br><br>
+                                         <div class="row">
+                                            <div class="col-md-12">
+                                                <h3>DATENSCHUTZBEAUFTRAGTER</h3><hr>
+                                                <p>
+                                                   Der Datenschutzbeauftragte der Rimpido GmbH ist derzeit der Geschäftsführer Herr Dr. Jan H. Schuur. 
+                                                </p>
+                                           </div>    
+
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3>VERANTWORTLICHE STELLE</h3><hr>
+                                                <p>
+                                                   Verantwortlich für die Datenverarbeitung durch diese Webseite ist:<br><br>
+
+                                                    Rimpido GmbH<br>
+                                                    Reiherstieg 40<br>
+                                                    21244 Buchholz<br>
+                                                    Deutschland<br>
+                                                    Telefon +49 (0) 4181 1386 456<br><br>
+
+                                                    Um Kommunikation im Internet zu ermöglichen, müssen Daten von dem Server, auf dem sie gespeichert sind, zu dem angeschlossenen Computer gelangen, der auf die Inhalte zugreifen möchte. Hierzu muss mit der Anfrage, die Daten abzurufen, auch mitgeteilt werden, an welchen Empfänger die Information vom Server übermittelt werden soll. Zu diesem Zwecke sind allen mit dem Internet verbundenen Geräten sog. IP-Adressen zugeordnet. Die Übermittlung der IP-Adresse erfolgt beim Aufruf einer Internetseite automatisch durch den Browser des Nutzers.<br><br>
+
+                                                    Zu diesem Zweck werden die IP-Adressen der Nutzer, die die Webseite der rimpido GmbH aufrufen, sowie die durch den Browser übermittelten Daten durch die rimpido GmbH verarbeitet.<br><br>
+
+                                                    Die Verarbeitung erfolgt zur Erfüllung der Aufgaben nach Art. 6 Absatz 1 lit. e in Verbindung mit Art. 57 DSGVO. Die Daten werden entsprechend der rechtlichen Vorgaben gespeichert. 
+                                                </p>
+                                           </div>    
+
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3>RECHTE DER NUTZER (BETROFFENEN PERSONEN)</h3><hr>
+                                                <p>
+                                                   Sie haben der rimpido GmbH gegenüber hinsichtlich der Datenverarbeitung auf dieser Webseite folgende Rechte:<br><br>
+
+                                                    Auskunft: Sie haben das Recht, eine Bestätigung darüber zu verlangen, ob Sie betreffende personenbezogene Daten verarbeitet werden; ist dies der Fall, so haben Sie ein Recht auf Auskunft über diese personenbezogenen Daten und auf die in Art. 15 DS-GVO im einzelnen aufgeführten Informationen.<br><br>
+
+                                                    Berichtigung: Sie haben das Recht, unverzüglich die Berichtigung Sie betreffender unrichtiger personenbezogener Daten und ggf. die Vervollständigung unvollständiger personenbezogener Daten zu verlangen (Art. 16 DSGVO).<br><br>
+
+                                                    Löschung: Sie haben das Recht, zu verlangen, dass Sie betreffende personenbezogene Daten unverzüglich gelöscht werden, sofern einer der in Art. 17 DSGVO im einzelnen aufgeführten Gründe zutrifft, z. B. wenn die Daten für die verfolgten Zwecke nicht mehr benötigt werden und die gesetzlichen Aufbewahrungs- und Archivvorschriften einer Löschung nicht entgegenstehen.<br><br>
+
+                                                    Einschränkung der Verarbeitung: Sie haben das Recht, die Einschränkung der Verarbeitung zu verlangen, wenn eine der in Art. 18 DSGVO aufgeführten Voraussetzungen gegeben ist, z. B. wenn Sie Widerspruch gegen die Verarbeitung eingelegt haben, für die Dauer der Prüfung, ob dem Widerspruch statt gegeben werden kann.<br><br>
+
+                                                    Datenübertragbarkeit: Sie haben gemäß Art. 20 DSGVO das Recht, die uns aufgrund Ihrer Einwilligung freiwillig zur Verfügung gestellten und elektronisch verarbeiteten Daten in einem strukturierten, gängigen und maschinen-lesbaren Format zu erhalten, sodass Sie diese Daten einem anderen Verantwortlichen zur Verfügung stellen können. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.<br><br>
+
+                                                    Widerspruch: Sie haben das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit im Rahmen der Voraussetzungen des Art. 21 DSGVO gegen die Verarbeitung Sie betreffender personenbezogener Daten Widerspruch einzulegen.
+                                                </p>
+                                           </div>    
+
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3>RECHTE DER NUTZER (BETROFFENEN PERSONEN)</h3><hr>
+                                                <h4>COOKIES</h4><br>
+                                                <p>
+                                                    Unsere Webseiten verwenden auch sogenannte Cookies. Cookies werden verwendet, um unser Angebot nutzerfreundlicher, effizienter und sicherer zu gestalten. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert<br><br>
+
+                                                    Die meisten der von uns verwendeten Cookies sind so genannte “Session-Cookies”. Sie werden nach Ende Ihres Besuchs a utomatisch gelöscht. Andere Cookies bleiben auf Ihrem Endgerät gespeichert bis Sie diese löschen. Diese Cookies ermöglichen es uns, Ihren Browser beim nächsten Besuch wiederzuerkennen.<br><br>
+
+                                                    Sie können Ihren Browser so einstellen, dass Sie über das Setzen von Cookies informiert werden und Cookies nur im Einzelfall erlauben, die Annahme von Cookies für bestimmte Fälle oder generell ausschließen sowie das automatische Löschen der Cookies beim Schließen des Browser aktivieren. Bei der Deaktivierung von Cookies kann die Funktionalität dieser Website eingeschränkt sein.<br><br>
+
+                                                    Cookies, die zur Durchführung des elektronischen Kommunikationsvorgangs erforderlich sind, werden auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO gespeichert. Der Websitebetreiber hat ein berechtigtes Interesse an der Speicherung von Cookies zur technisch fehlerfreien und optimierten Bereitstellung seiner Dienste. Soweit andere Cookies (z.B. Cookies zur Analyse Ihres Surfverhaltens) gespeichert werden, werden diese in dieser Datenschutzerklärung gesondert behandelt.
+                                                </p><br><br>
+                                                <h4>SERVER-LOG-DATEIEN</h4><br>
+                                                <p>
+                                                    Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind:<br>
+
+                                                </p>
+                                                <ul>
+                                                        <li>Browsertyp und Browserversion</li>
+                                                        <li>verwendetes Betriebssystem</li>
+                                                        <li>Referrer URL</li>
+                                                        <li>Hostname des zugreifenden Rechners</li>
+                                                        <li>Uhrzeit der Serveranfrage</li>
+                                                        <li>Uhrzeit der Serveranfrage</li>
+                                                        
+                                                </ul>
+                                                <p>
+                                                   Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen.<br><br>
+
+                                                    Grundlage für die Datenverarbeitung ist Art. 6 Abs. 1 lit. f DSGVO, der die Verarbeitung von Daten zur Erfüllung eines Vertrags oder vorvertraglicher Maßnahmen gestattet. 
+                                                </p><br><br>
+                                                <h4>SSL- BZW. TLS-VERSCHLÜSSELUNG</h4><br>
+                                                <p>
+                                                    Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertraulicher Inhalte, wie zum Beispiel Bestellungen oder Anfragen, die Sie an uns als Seitenbetreiber senden, eine SSL-bzw. <br>TLS-Verschlüsselung. Eine verschlüsselte Verbindung erkennen Sie daran, dass die Adresszeile des Browsers von “http://” auf “https://” wechselt und an dem Schloss-Symbol in Ihrer Browserzeile.<br><br>
+
+                                                    Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.
+                                                </p><br><br>
+                                                <h4>MANUELLE DATENVERARBEITUNG (NUTZEREINGABEN)</h4><br>
+                                                <p>
+                                                    Neben der automatischen Datenverarbeitung der durch den Browser übermittelten Daten werden in den Datenbanken von Phrasetool by Rimpido auch weitere Daten gespeichert. Jeder registrierte Nutzer legt dabei diese Daten in seinem perönlichen Benutzerkonto ab. Diese Daten können durch den registrierten Benutzer in seinem Profil jederzeit eingesehen und verändert werden. Es werden dabei nur solche Daten erhoben, die für die Nutzung des Systems unerlässlich sind. Dabei handelt es sich um persönliche Einstellungen (Sprachenauswahl) und Kontaktdaten des Nutzers und seiner Firmenzugehörigkeit.<br>
+                                                    Diese Daten können nur von einem autorisierten Administrator der Rimpido GmbH eingesehen werden und im Falle eines Firmenkonto vom Administrator der jeweiligen Firma.
+                                                    In keinem Fall ist das Passwort des Benutzerkontos einsehbar, da es dieses verschlüsselt abgelegt wird.<br><br>
+
+                                                    Neben diesen einsehbaren Benutzerdaten werden zusätzlich an verschiedenen Stellen Referenzen auf den Benutzer im System abgelegt. Diese Referenzen ermöglichen es im Falle von Missbrauch, Fehlern, u. Ä. Änderungen im System nachzuvollziehen. Außerdem kann mit dieser Zuordnung eine rudimentäre Leistungsauswertung des Benutzer vorgenommen werden.
+                                                </p>
+
+
+                                           </div>    
+
+                                        </div><br><br>
+                                         <div class="row">
+                                            <div class="col-md-12">
+                                                <h3>ANALYSE TOOLS</h3>
+                                                <hr>
+                                                <h4>GOOGLE ANALYTICS</h4><br>
+                                                <p>
+                                                    Diese Website nutzt Funktionen des Webanalysedienstes Google Analytics. Anbieter ist die Google Inc., 1600 Amphitheatre Parkway, Mountain View, CA 94043, USA.<br><br>
+
+                                                    Google Analytics verwendet so genannte "Cookies". Das sind Textdateien, die auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen über Ihre Benutzung dieser Website werden in der Regel an einen Server von Google in den USA übertragen und dort gespeichert.<br><br>
+
+                                                    Die Speicherung von Google-Analytics-Cookies erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der Analyse des Nutzerverhaltens, um sowohl sein Webangebot als auch seine Werbung zu optimieren.
+                                                </p><br><br>
+                                                <h4>WEITERE INFORMATIONEN</h4><br>
+                                                <p>Ihr Vertrauen ist uns wichtig. Daher möchten wir Ihnen jederzeit Rede und Antwort bezüglich der Verarbeitung Ihrer personenbezogenen Daten stehen. Wenn Sie Fragen haben, die Ihnen diese Datenschutzerklärung nicht beantworten konnte oder wenn Sie zu einem Punkt vertiefte Informationen wünschen, wenden Sie sich bitte jederzeit an den Datenschutzbeauftragten der Rimpido GmbH.</p>
+
+
+                                           </div>    
+
+                                        </div><br><br>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
 
             <!-- 
             <section class="statistic">
@@ -1494,32 +1628,32 @@
     </div>
 
     <!-- Jquery JS-->
-    <script src="vendor/jquery-3.2.1.min.js"></script>
+    <script src="../../vendor/jquery-3.2.1.min.js"></script>
     <!-- Bootstrap JS-->
-    <script src="vendor/bootstrap-4.1/popper.min.js"></script>
-    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <script src="../../vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="../../vendor/bootstrap-4.1/bootstrap.min.js"></script>
     <!-- Vendor JS       -->
-    <script src="vendor/slick/slick.min.js">
+    <script src="../../vendor/slick/slick.min.js">
     </script>
-    <script src="vendor/wow/wow.min.js"></script>
-    <script src="vendor/animsition/animsition.min.js"></script>
-    <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+    <script src="../../vendor/wow/wow.min.js"></script>
+    <script src="../../vendor/animsition/animsition.min.js"></script>
+    <script src="../../vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
     </script>
-    <script src="vendor/counter-up/jquery.waypoints.min.js"></script>
-    <script src="vendor/counter-up/jquery.counterup.min.js">
+    <script src="../../vendor/counter-up/jquery.waypoints.min.js"></script>
+    <script src="../../vendor/counter-up/jquery.counterup.min.js">
     </script>
-    <script src="vendor/circle-progress/circle-progress.min.js"></script>
-    <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script src="vendor/chartjs/Chart.bundle.min.js"></script>
-    <script src="vendor/select2/select2.min.js">
+    <script src="../../vendor/circle-progress/circle-progress.min.js"></script>
+    <script src="../../vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="../../vendor/chartjs/Chart.bundle.min.js"></script>
+    <script src="../../vendor/select2/select2.min.js">
     </script>
-    <script src="vendor/vector-map/jquery.vmap.js"></script>
-    <script src="vendor/vector-map/jquery.vmap.min.js"></script>
-    <script src="vendor/vector-map/jquery.vmap.sampledata.js"></script>
-    <script src="vendor/vector-map/jquery.vmap.world.js"></script>
+    <script src="../../vendor/vector-map/jquery.vmap.js"></script>
+    <script src="../../vendor/vector-map/jquery.vmap.min.js"></script>
+    <script src="../../vendor/vector-map/jquery.vmap.sampledata.js"></script>
+    <script src="../../vendor/vector-map/jquery.vmap.world.js"></script>
 
     <!-- Main JS-->
-    <script src="js/main.js"></script>
+    <script src="../../js/main.js"></script>
 
 </body>
 

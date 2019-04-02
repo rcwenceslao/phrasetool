@@ -13,27 +13,48 @@
     <title>Dashboard</title>
 
     <!-- Fontfaces CSS-->
-    <link href="css/font-face.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <link href="vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
-    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
+    <link href="../../css/font-face.css" rel="stylesheet" media="all">
+    <link href="../../vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/font-awesome-5/css/fontawesome-all.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/mdi-font/css/material-design-iconic-font.min.css" rel="stylesheet" media="all">
 
     <!-- Bootstrap CSS-->
-    <link href="vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/bootstrap-4.1/bootstrap.min.css" rel="stylesheet" media="all">
 
     <!-- Vendor CSS-->
-    <link href="vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
-    <link href="vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
-    <link href="vendor/wow/animate.css" rel="stylesheet" media="all">
-    <link href="vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
-    <link href="vendor/slick/slick.css" rel="stylesheet" media="all">
-    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all">
-    <link href="vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
-    <link href="vendor/vector-map/jqvmap.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/animsition/animsition.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/bootstrap-progressbar/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/wow/animate.css" rel="stylesheet" media="all">
+    <link href="../../vendor/css-hamburgers/hamburgers.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/slick/slick.css" rel="stylesheet" media="all">
+    <link href="../../vendor/select2/select2.min.css" rel="stylesheet" media="all">
+    <link href="../../vendor/perfect-scrollbar/perfect-scrollbar.css" rel="stylesheet" media="all">
+    <link href="../../vendor/vector-map/jqvmap.min.css" rel="stylesheet" media="all">
 
     <!-- Main CSS-->
-    <link href="css/theme.css" rel="stylesheet" media="all">
+    <link href="../../css/theme.css" rel="stylesheet" media="all">
+<style>
+.help-content{
+    text-align: left !important;
+}
+.help-content li {
+    margin-left: 50px;
+    color:#000;
+}
+.help-content li a{
+    color: orange;
+}
+.help-content li a:hover{
+    color: red;
+}
+.help-content p{
+    text-align: justify;
+}
+.list-of-list li {
+    margin-left:80px;
+}
 
+</style>
 </head>
 
 <body class="animsition">
@@ -48,7 +69,7 @@
             <div class="menu-sidebar2__content js-scrollbar1">
                 <div class="account2">
                     <div class="image img-cir img-120">
-                        <img src="images/icon/user.jpg" alt="User" />
+                        <img src="../../images/icon/user.jpg" alt="User" />
                     </div>
                     <h4 class="name">User</h4>
                     <a href="#">Sign out</a>
@@ -68,11 +89,11 @@
                                         <i class="fas fa-users"></i>List Of Users</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="pages/user/add-user.html">
                                         <i class="fas fa-user-plus"></i>New User</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
+                                    <a href="pages/user/edit-profile.html">
                                         <i class="fas fa-edit"></i>Edit Own Profile</a>
                                 </li>
                                 <li>
@@ -83,12 +104,12 @@
                                     <a href="index4.html">
                                         <i class="far fa-edit"></i>Edit Company</a>
                                 </li>
-                                <!--
+                                
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="pages/user/system-status.html">
                                         <i class="fas fa-tachometer-alt"></i>System Status</a>
                                 </li>
-                            -->
+                           
                             </ul>
                         </li>
 
@@ -101,11 +122,11 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="pages/phrasetext/phrasetext_landing.html">
                                         <i class="fas fa-search"></i>Search Phrasetext</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="pages/phrasetext/missingphrasetext.html">
                                         <i class="fas fa-exclamation-circle"></i>Missing Translation</a>
                                 </li>
                                 <li>
@@ -121,7 +142,7 @@
                         </li>
 
 
-                        <li class="has-sub">
+                         <li class=" has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-list-alt"></i>Phrasecatalogue
                                 <span class="arrow">
@@ -130,52 +151,20 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="pages/phrasecatalogue/list_and_map.html">
+                                    <a href="index.html">
                                         <i class="fas fa-map-signs"></i>List and Map</a>
                                 </li>
                                 <li>
-                                    <a href="pages/phrasecatalogue/new_phrasecatalogue.html">
+                                    <a href="index2.html">
                                         <i class="fas fa-plus"></i>New Phrasecatalogue</a>
                                 </li>
-                                <li class="has-sub">
-                                    <a class="js-arrow" href="#">
-                                        <i class="fas fa-file-download"></i>Import
-                                        <span class="arrow">
-                                           <i class="fas fa-angle-down"></i>
-                                        </span>
-                                    </a>
-                                    <ul class= "list-unstyled navbar__sub-list js-sub-list">
-                                        <li>
-                                            <a href="pages/phrasecatalogue/phrasecatalogue_import.html">
-                                                <i class="fas fa-file-download"></i>Phrasecatalogue Import
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="pages/phrasecatalogue/phraseset_import.html">
-                                                <i class="fas fa-file-download"></i>Phraseset Import
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="pages/phrasecatalogue/propertytree_import.html">
-                                                <i class="fas fa-file-download"></i>Propertytree Import
-                                            </a>
-                                        </li>
-
-                                    </ul>
+                                <li>
+                                    <a href="index3.html">
+                                        <i class="fas fa-file-download"></i>Phrasecatalogue Import</a>
                                 </li>
-                                <li class="has-sub">
-                                    <a class="js-arrow" href="#">
-                                        <i class="fas fa-file-export"></i>Export
-                                        <span class="arrow">
-                                            <i class="fas fa-angle-down"></i>
-                                    </a>
-                                    <ul class = "list-unstyled navbar__sub-list js-sub-list">
-                                        <li>
-                                            <a href="#">
-                                                <i class="fas fa-file-export"></i>Phrasecatalogue Export
-                                            </a>
-                                        </li>
-                                    </ul>
+                                <li>
+                                    <a href="index4.html">
+                                        <i class="fas fa-file-export"></i>Phrasecatalogue Export</a>
                                 </li>
                                 <li>
                                     <a href="index4.html">
@@ -214,11 +203,11 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="pages/label/list_label.html">
+                                    <a href="index.html">
                                         <i class="fas fa-list"></i>List Labels</a>
                                 </li>
                                 <li>
-                                    <a href="pages/label/new_label.html">
+                                    <a href="index2.html">
                                         <i class="fas fa-plus"></i>New Label</a>
                                 </li>
                                 
@@ -357,7 +346,7 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="pages/help/help-user.html">
+                                    <a href="index.html">
                                         <i class="far fa-file-alt"></i>User Data and Registration</a>
                                 </li>
                                 <li>
@@ -1061,7 +1050,7 @@
                                             <li class="list-inline-item seprate">
                                                 <span>/</span>
                                             </li>
-                                            <li class="list-inline-item">Dashboard</li>
+                                            <li class="list-inline-item">Help on Import and Export</li>
                                         </ul>
                                     </div>
                                     <!--
@@ -1075,6 +1064,383 @@
                 </div>
             </section>
             <!-- END BREADCRUMB-->
+            <center>
+                <div class="col-lg-12">
+                                <div class="card">
+                                    <div class="card-header">
+                                        
+                                   </div>
+                                    <div class="card-body card-block">
+                                        
+                                     <div class="help-content">
+
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3 style="text-align: center;">HELP ON IMPORT AND EXPORT</h3><hr>
+                                                <p>
+                                                    The Phrasetool by Rimpido allows privileged user to import data into the system via well formatted files.
+                                                    The export is (in parts) available for more user groups.<br><br>
+
+                                                    The file formats used in import and export are basically the same. But not all formats are implemented on each import and export function. Please look at the import / export form to get detailed information which formats are used by this function.<br><br>
+
+                                                    The import as well as the export starts with a screen for selecting certain options (and uploading files in case of import). Then you will be sent to a screen with one or more progressbars. This page will trigger necessary function calls via AJAX-requests, so please do not close or reload the page unless after two minutes no progress can be detected.<br>
+                                                    The import and export may be very time consuming, so please be patient. On the other hand you may leave these functions unattended running in the background as lomg as you do not close the webbrowser or the webpage (or going in standby with your computer).<br><br>
+
+                                                    Please select one topic of the list below to get further information about the topic:
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <ul>
+                                                    <li><a href="#">Import</a></li>
+                                                    <ul>
+                                                        <div class="list-of-list">
+                                                        <li><a href="">Import of Phrasecatalogues</a></li>
+                                                        <li><a href="">Import of Propetytrees</a></li>
+                                                        <li><a href="">Import of Phrasesets</a></li>
+                                                        <li><a href="">Import Processing</a></li>
+                                                        <li><a href="">Finished Import</a></li>
+                                                        </div>
+                                                    </ul>
+                                                    <li><a href="#">Export</a></li>
+                                                     <ul>
+                                                        <div class="list-of-list">
+                                                        <li><a href="">Export of Phrasecatalogues</a></li>
+                                                        <li><a href="">Export of Search Results</a></li>
+                                                        <li><a href="">Export of Propetytrees</a></li>
+                                                        <li><a href="">Export of Phrasesets</a></li>
+                                                        <li><a href="">Export Processing</a></li>
+                                                        <li><a href="">Finished Export</a></li>
+                                                        </div>
+                                                    </ul>
+                                                    <li><a href="#">File Formats</a></li>
+                                                    <ul>
+                                                        <div class="list-of-list">
+                                                        <li><a href="">SAP Exchange Format</a></li>
+                                                        <li><a href="">MS Excel in columns</a></li>
+                                                        <li><a href="">CSV file</a></li>
+                                                        <li><a href="">EuPhraC file</a></li>
+                                                       
+                                                        </div>
+                                                    </ul>
+                                                </ul>
+                                            </div>
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3>IMPORT</h3><hr>
+                                                <p>The import is devided in three parts: Phrasecatalogue, Phraseset and Propertytree. While the last two Import functions can import SAP® exchange files only, the import of phrasecatalogues can make use of four different file formats. The files must(!) match the selected file format, otherwise the import may result in failure and the imported data is damaged and unstable!<br><br>
+                                                <b>Please note:</b> Phrasesets (actually the reference between Phrasesets and Phrases) may only be uploaded after you have imported the Phrases via Phrasecatalogue import and the Phrasesets via Propertytree Import. The Phraseset file and the Phrasecatalogue file may be the same one. Firtst you must upload this file as a Phrasecatalogue and then you may add the references via importing as Phraseset file.<br>
+                                                Instead of uploading a file via the file menu of your browser, it is also possible to upload a file in the upload directory directly. This may be needed if the import file is bigger than the maximum size limit given by the webserver. You should ask your administrator, if you want to use this option.</p>
+                                            </div>
+                                        </div><br>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                
+                                            </div><br>
+                                            <div class="col-md-12">
+                                                <p>
+                                                    <h4>IMPORT OF PHRASECATALOGUES</h4><br>
+                                                    There are several options and field which may be selected in order to get the desired import of a Phrasecatalogue.<br>
+                                                    <b>File:</b> If you have uploaded a file, select the right one. Otherwise chose a file from your local computer to upload and import it. There exists a limit of the file size and large files may be very slowly uploaded.<br>
+                                                    <b>Type of Upload File:</b> There is no automatic detection of the file type. You have to select the file type carefully as a wrong file type may result in irreproduceable results.<br>
+                                                    <b>Separator:</b> If you selected "Comma Separated Values" as filte-type, you have to enter the separator here. In your uploaded file the vallues must be separated (in one row) by this separator only (which must be the same in the whole file) and your values may not be enclosed by " or alike.<br>
+                                                    <b>Phrasecatalogue:</b> Prior to import a catalogue you have to create (add) a catalogue in which you want to import the phrases for all file types but SAP exchange format. As at the moment only SAP exchange format contains data of the catalogue itself. <br>
+                                                    <b>Prefix to PhrasenId:</b> In some systems you'll need to have PhraseIds according to a specific range of characters. You may add a prefix to all imported PhraseIds to match this range. (Not available on SAP import)<br>
+                                                    <b>Commercial Catalogue:</b> Selecting this button restricts the use of any phrases of the catalogue to your own company/employer. No phrase will ever be released to other catalogues. All imported phrases will be marked as "commercial", so this can always be identified as personal phrases.<br>
+                                                    <b>Released Catalogue:</b> Releasing a catalogue allows you to earn credit points for new phrases. The new phrases will be copied into the master catalogue and for each copied phrasetext you get a credit point. All phrases will be checked against known commerial phrasecatalogues. If you want to participate with your phrases in the phrase community, you have to select this checkbox.<br>
+                                                    <b>Overwrite Existing, Phrases only:</b> Normally nothing will be overwritten by an import. Selecting this checkbox will overwrite all phrasetetxt and phrasedheads (all language specific texts and the master data of a phrase) in the selected catalogue. But neither any existing catalogue data nor any existing phrasegroup data will be overwritten.<br>
+                                                    <b>Overwrite Existing:</b> As mentioned above, normally no data will be overwritten. If you select this checkbox ALL data in the selected catalogue will be overwritten with the data from the input file. This is only useful if you have already data in your catalogue.
+                                                </p>
+                                            </div>
+                                        </div><br><br>
+                                        <div class="row">
+
+                                            <div class="col-md-6">
+                                                <h4>IMPORT PROPERTYTREES</h4><br>
+                                                <p>
+                                                    There are several options and field which may be selected in order to get the desired import of a Propertytree.<br>
+                                                    <b>File:</b> If you have uploaded a file, select the right one. Otherwise chose a file from your local computer to upload and import it. There exists a limit of the file size and large files may be very slowly uploaded.<br>
+                                                    <b>Type of Upload File:</b> There is no automatic detection of the file type. Currently the SAP exchange format is available only.<br>
+                                                    <b>Tree:</b> Prior to import a propertytree you may to create (add) a tree in which you want to import the data.<br>
+                                                    <b>Overwrite Existing:</b> As mentioned above, normally no data will be overwritten. If you select this checkbox ALL data in the selected propertytree will be overwritten with the data from the input file. This is only useful if you have already data in your propertytree.
+                                                </p> 
+                                            </div>
+                                            <div class="col-md-6">
+                                                
+                                            </div>
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>IMPORT OF PHRASESETS</h4><br>
+                                                <p>
+                                                    There are several options and field which may be selected in order to get the desired import of a Phraseset.<br>
+                                                    This phraseset import is only importing the references of phrasesets and phrases and neither the phrasesets nor the phrases.
+                                                    Often the import file for this import is identically with the import of the phrasecatalogue if you are using SAP exchange format. This is not an error but a design decision.<br><br>
+                                                    <b>File:</b> If you have uploaded a file, select the right one. Otherwise chose a file from your local computer to upload and import it. There exists a limit of the file size and large files may be very slowly uploaded.<br>
+                                                    <b>Type of Upload File:</b> There is no automatic detection of the file type. Currently the SAP exchange format is available only.<br>
+                                                    <b>Phrasecatalogue:</b> Prior to import the phraseset phrase references (via this phraseset import) the phrases and phrasesets must exist in the system. You have to select the desired phrasecatalogue to import the references.<br>
+                                                    <i>The import will be restricted to phrases from the catalogue selected above and phrasesets belonging to your company.</i> The phrasesets can be imported via the propertytree import, but they are not limited by one property tree.<br>
+                                                    <b>Overwrite Existing:</b> As mentioned above, normally no data will be overwritten. If you select this checkbox ALL data in the selected references will be overwritten with the data from the input file.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                
+                                            </div>
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>IMPORT PROCESSING</h4><br>
+                                                <p>
+                                                    After submitting the main form,two progressbars will be displayed.<br>
+                                                    <b>Overall progress:</b> This progress bar gives you an idea how many steps will follow until the import is done. Some import filters will need less steps than others, so the progress bar may not reach the end on the right side.<br>
+                                                    <b>Step progress:</b> This progress shows detailed information about the current step. Larger import files will result in very many steps with little progress, so please take a look at the percent value to check if the import is still running.<br>
+                                                    <b>Please note:</b> The import process may be very time consuming! After at least 60 seconds should get a new information on the screen. Normally the percent value increases every 7 seconds, but some times this may be longer. Please be patient.<br>
+
+                                                    <b>Please also note:</b> <i>You can put the browser window in background and may also use other browser tabs while the import is running. But the import browser window may not be affected from any disturbences or the import will break.</i><br>
+
+                                                    <b>Broken imports:</b> If your import failed, you may ask your administrator if he can help you by looking into the log files. Normally you can restart the import by chosing "Overwrite Existing". In that way your whole broken import will be overwritten. If that does not help, please ask your administrator.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                
+                                            </div>
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>FINISHED IMPORT</h4><br>
+                                                <p>
+                                                When your import is finished, a summary window is displayed. On that window a summary will be presented how many items where successfully added to the database and how many errors occured.<br>
+                                                If you had selected an existing propertytree or phrasecatalogue a zero (0) will be displayed on both columns. Depending on the type of import and the format some values (for successes) may not represent the actual values as the only changes in the database count in. <br>
+                                                <b>Please note:</b> There is no possibility to get detailed information about the errors within the webpages. Normally all imports will be recorded with log files, so please ask your administrator if you encounter any errors. If you forgot to select "Overwrite Existing" while overwriting an existing propertytree or phrasecatalogue will result in many errors.
+                                                    
+                                                </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                
+                                            </div>
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3>EXPORT</h3><hr>
+                                                <p>
+                                                    The export is devided in four parts: <b>Phrasecatalogue</b>, <b>Search Result</b>, <b>Phraseset</b> and <b>Propertytree</b>. During the export a file will be created which can be downloaded afterwards. Search Results and Catalogues may be exported not only in SAP exchange format but also as an MS Excel® document. Further export formats may be implemented at a later moment.
+                                                    The export files are compatible to the import filters.
+                                                </p>
+                                            </div>
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>EXPORT OF PHRASECATALOGUES</h4><br>
+                                                <p>
+                                                    There are several options and field which may be selected in order to get the desired export of a Phrasecatalogue.<br>
+                                                    <b>Phrasecatalogue:</b> Select the phrasecatalogue you want to export and download. <br>
+                                                    <b>Type of Download File:</b> The export file will have the selected format. Phrasecatalogue information is stored in the SAP exchange format only.<br>
+                                                    Be aware, that the export of MS Excel files is both time and memeory consuming. You may reach the system's borders and that way the export may fail.<br>
+                                                    <b>Target Operating System:</b> Please select the target operating system. The file will have special line feed characters depending on the system. Binary formats (as MS Excel) do not neet this information.
+                                                    <br>
+                                                    <b>All Languages:</b> If selected (default), all phrases in all languages will be exportet. Otherwise you'll see an additional selectbox where you may select the desired languages. You may select multiple languages but all available languages will be displayed in the box at the moment.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                
+                                            </div>
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>EXPORT OF SEARCH RESULTS</h4><br>
+                                                <p>
+                                                    This export may be useful if you want to export a small group of phrases only then use this function. First you have to search in the phrasentexts for phrases, afterwards you may export this result.<br>
+                                                    <b>Type of Download File:</b> The export file will have the selected format. Phrasecatalogue information is stored in the SAP exchange format only.
+                                                    Be aware, that the export of MS Excel files is both time and memeory consuming. You may reach the system's borders and that way the export may fail.<br>
+                                                    <b>Target Operating System:</b> Please select the target operating system. The file will have special line feed characters depending on the system. Binary formats (as MS Excel) do not neet this information.<br>
+                                                    <b>Phrasetexts:</b> You may add one or more phrasetexts by selecting them via checkbox. Below the submit button are two buttons which select all or none of the phrasetexts.<br>
+                                                    <b>Please note:</b> Due to some technical restrictions only 350 phrasetexts can be exported simultaneously. Thus the export form will only show the first 350 records of the search result.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                
+                                            </div>
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>EXPORT OF PROPERTYTREES</h4><br>
+                                                <p>
+                                                    There are two options and field which may be selected in order to get the desired export of a Propertytree.<br>
+                                                    <b>Tree:</b> Select the propertytree you want to export and download. 
+                                                    <b>Please note:</b> Currently only export in SAP exchange format is possible.<br>
+                                                    <b>Target Operating System:</b> Please select the target operating system. The file will have special line feed characters depending on the system. Binary formats (as MS Excel) do not neet this information.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                
+                                            </div>
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>EXPORT OF PHRASESETS</h4><br>
+                                                <p>
+                                                    There are two options and field which may be selected in order to get the desired export of a phraseset phrase reference file.<br>
+                                                    <b>Phrasecatalogue:</b> Select the phrasecatalogue the phrases belong to which you want to export and download.<br> 
+                                                    <b>Please note:</b> Currently only export in SAP exchange format is possible.<br>
+                                                    <b>Target Operating System:</b> Please select the target operating system. The file will have special line feed characters depending on the system. Binary formats (as MS Excel) do not neet this information.
+                                                </p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                
+                                            </div>
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>EXPORT PROCESSING</h4><br>
+                                                <p>
+                                                    After submitting the main form one progressbars will be displayed.<br>
+                                                    <b>Overall progress:</b> This progress bar gives you an idea how many steps will follow until the import is done. Some parts of the export may be faster and other may be slower but the export is decently faster than the import.<br>
+                                                    <b>Please note:</b> The export process may be time consuming also! After at least 60 seconds should get a new information on the screen. Normally the progressbar will be renewed every 7 seconds, but some times this may be longer. Please be patient.<br>
+
+                                                    <b>Please also note:</b> You can put the browser window in background and may also use other browser tabs while the import is running. But the import browser window may not be affected from any disturbences or the export will break.<br>
+
+                                                    <b>Broken exports:</b> If your export failed, try to export the same data again. If that does not help, please ask your administrator.
+                                                </p>
+                                            </div>
+                                             <div class="col-md-6">
+                                                
+                                            </div>
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <h4>FINISHED EXPORT</h4><br>
+                                                <p>During the export process in the background the webserver creates a files with the desired data. After a successfull export you will get a link to the export file. You can download this file at the same day multiple times, but do not forget to store the link as it will only displayed once after the export.</p>
+                                            </div>
+                                            <div class="col-md-6">
+                                                
+                                            </div>
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h3>FILE FORMATS IN USE</h3><hr>
+                                                <p>
+                                                    The are several format defined for the use with the import and export fuinctions. Please note: Not every format is available on every funtion! Look at the page to learn which function is capable of which format, the availability of formats may be extended during the development of the software.<br>
+                                                    At least the SAP® exchange format may be selected at every function.
+                                                </p>
+                                            </div>
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4>SAP® EXCHANGE FORMAT</h4><br>
+                                                <p>
+                                                    One goal of the software is to be as much compliant to SAP® EH&S™-module as possible.<br>
+                                                    To achieve this, the SAP exchange format is implemented in all import and export funtions. This format is a text-based format and human readable (if you know much about the internal structure of SAP EH&S).
+                                                    <br>
+                                                    Each row contains is limited to 80 characters and a combination of "function code" a value. The function code defines the type of value. The rows are hierarchical ordered in that fashion that some "function codes" can be seen as headings. These headings may define the table the following data (in following rows) has to be stored into.<br>
+                                                    Further details can be acquired by SAP® or in SAP-related literature.
+                                                </p>
+                                            </div>
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4>MICROSOFT® EXCEL® IN COLUMNS</h4><br>
+                                                <p>
+                                                    There are <b>two different formats</b> for your MS Excel documents, this description only include the one with <b>languages in columns.</b><br>
+
+                                                    The import of MS Excel documents is restricted to well formated documents. You may use different versions of MS Excel documents (beginning with Excel 97 and including Excel 2013) as the system tries to detect the right version automatically. The first row must contain the headings and may contain any number of columns. If you do not include the headings in the first row, your import will fail. There are some columns which must appear in the document and some columns must contain data otherwise your import will also fail. The data is written in rows: One row will be imported as one Phrasehead with multiple Phrasetexts. Additionally a catalogue must be selected prior to importing an MS Excel document as there is no catalogue data defined within the document.<br>
+
+                                                    The following list describes the columns (column headings) neccessary and possible for your import document.
+                                                </p>
+
+
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class = "task-progress">
+                                                        <div class="table-responsive">
+                                                                <table class="table table-hover">
+                                                                <thead>
+                                                                    <tr>
+                                                                      <th style="width: 40%"></th>
+                                                                      <th style="width: 60%"></th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                      <tr>
+                                                                      <td><b>Phrasegroup</b></td>
+                                                                      <td>The PhraseId, identifier of the Phrase. The heading is neccessary but you may leave the field blank to have a PhraseId generated. (PhrasenId)</td>
+                                                                      
+                                                                      </tr>
+                                                                      <tr>
+                                                                      <td><b>PhraseId</b></td>
+                                                                      <td>
+                                                                        The Phrasegroup of the Phrase in the row. The heading is neccessary and the field in each row is neccessary. (Phrasengruppe)</td>
+                                                                      </tr>
+
+                                                                                                 </tr>
+                                                                      <tr>
+                                                                      <td><b>Remark</b></td>
+                                                                      <td >Remark to the Phrase. (Bemerkung)</td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                      <td><b>Original Code</b></td>
+                                                                      <td>Some Code of the Phrase in the native database, e.g. R65. (Original Code)</td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                      <td><b>Phrasecode</b></td>
+                                                                      <td>
+                                                                    Code of the Phrase. Please note: The same Phrasecode will be applied to all languages. (Phrasencode)</td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                      <td><b>Phrasestate</b></td>
+                                                                      <td>Status of the Phrase (seldom used). (Phrasenstatus)</td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                      <td><b>Graphics</b></td>
+                                                                      <td>Filename (and path) of the graphicsfile. Please note: The same filename will be applied to all languages. (Grafik)</td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                      <td><b>English</b></td>
+                                                                      <td>The English translation of the Phrase. The heading is neccessary but you may leave this field empty. (Englisch)</td>
+                                                                      </tr>
+                                                                      <tr>
+                                                                      <td><b>Language</b></td>
+                                                                      <td>The translation of the Phrase in the language, e.g. German, Norwegian, Hungarian. The language will be identified through the database and the name in the heading must be the same as in the database. (Deutsch, Norwegisch, Ungarisch)</td>
+                                                                      </tr>
+
+                                                                </tbody>
+                                        </table>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <p>
+                                                    The headings must have the same case-sensitivity as written in the list above. Any differences may result in failures during import.<br>
+                                                    You may use either English or German headings but no other language as they cannot be detected. German headings are given in brackets. The language must be set in the database, so you may use any language name as long as it is set in the database. The matching of languages is case-insensitive.<br>
+
+                                                    If you leave a field in a language empty no data will be written for this row in that language. This may be useful if you have not a complete translation of everything.<br>
+                                                    But <b>be aware</b> that the import will not fail if you do not have any language field of a given row filled with data. This will result in an orphaned phrase with no phrasetexts.<br>
+
+                                                    Here is a small example, using "#" as delimiter, file which may give you further information and insight on the correct format of your csv documents: <a href="">Download example CSV file</a>.
+                                                </p>
+                                            </div>
+                                        </div><br><br>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <h4>EUPHRAC™ EXPORT</h4><br>
+                                                <p>
+                                                    The EuPhrac is the European Standard Phrases Catalogue for (extended) Safety Data Sheets and Exposition Scenarios. It can been downloaded from www.esdscom.eu. All rights on the Phrases, the document and its structure remain to the owners of the EuPhraC, see also the General Terms. You can upload the EuPhraC document directly into the Phrasetool by Rimpido without reformating the file (up to version 1.2).<br>
+                                                    Only a catalogue must be selected prior to importing an EuPhraC file as there is noch catalogue data defined within the document.<br>
+
+                                                    The format of the EuPhraC is basically a special type of CSV. Instead of using commas, tabs are used as separator. You may import other files with this import filter as well, but it is only compliant to the EuPhraC.
+                                                </p>
+                                            </div>
+                                        </div>
+                               
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
 
             <!-- 
             <section class="statistic">
@@ -1494,32 +1860,32 @@
     </div>
 
     <!-- Jquery JS-->
-    <script src="vendor/jquery-3.2.1.min.js"></script>
+    <script src="../../vendor/jquery-3.2.1.min.js"></script>
     <!-- Bootstrap JS-->
-    <script src="vendor/bootstrap-4.1/popper.min.js"></script>
-    <script src="vendor/bootstrap-4.1/bootstrap.min.js"></script>
+    <script src="../../vendor/bootstrap-4.1/popper.min.js"></script>
+    <script src="../../vendor/bootstrap-4.1/bootstrap.min.js"></script>
     <!-- Vendor JS       -->
-    <script src="vendor/slick/slick.min.js">
+    <script src="../../vendor/slick/slick.min.js">
     </script>
-    <script src="vendor/wow/wow.min.js"></script>
-    <script src="vendor/animsition/animsition.min.js"></script>
-    <script src="vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
+    <script src="../../vendor/wow/wow.min.js"></script>
+    <script src="../../vendor/animsition/animsition.min.js"></script>
+    <script src="../../vendor/bootstrap-progressbar/bootstrap-progressbar.min.js">
     </script>
-    <script src="vendor/counter-up/jquery.waypoints.min.js"></script>
-    <script src="vendor/counter-up/jquery.counterup.min.js">
+    <script src="../../vendor/counter-up/jquery.waypoints.min.js"></script>
+    <script src="../../vendor/counter-up/jquery.counterup.min.js">
     </script>
-    <script src="vendor/circle-progress/circle-progress.min.js"></script>
-    <script src="vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
-    <script src="vendor/chartjs/Chart.bundle.min.js"></script>
-    <script src="vendor/select2/select2.min.js">
+    <script src="../../vendor/circle-progress/circle-progress.min.js"></script>
+    <script src="../../vendor/perfect-scrollbar/perfect-scrollbar.js"></script>
+    <script src="../../vendor/chartjs/Chart.bundle.min.js"></script>
+    <script src="../../vendor/select2/select2.min.js">
     </script>
-    <script src="vendor/vector-map/jquery.vmap.js"></script>
-    <script src="vendor/vector-map/jquery.vmap.min.js"></script>
-    <script src="vendor/vector-map/jquery.vmap.sampledata.js"></script>
-    <script src="vendor/vector-map/jquery.vmap.world.js"></script>
+    <script src="../../vendor/vector-map/jquery.vmap.js"></script>
+    <script src="../../vendor/vector-map/jquery.vmap.min.js"></script>
+    <script src="../../vendor/vector-map/jquery.vmap.sampledata.js"></script>
+    <script src="../../vendor/vector-map/jquery.vmap.world.js"></script>
 
     <!-- Main JS-->
-    <script src="js/main.js"></script>
+    <script src="../../js/main.js"></script>
 
 </body>
 
