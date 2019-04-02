@@ -10,7 +10,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Phrasetext ~ Phrasetool by Rimpido</title>
+    <title>Help ~ Phrasetool by Rimpido</title>
 
     <!-- Fontfaces CSS-->
     <link href="../../css/font-face.css" rel="stylesheet" media="all">
@@ -34,6 +34,27 @@
     <!-- Main CSS-->
     <link href="../../css/theme.css" rel="stylesheet" media="all">
 
+    <style type="text/css">
+
+        .pagination a {
+          color: black;
+          float: left;
+          padding: 8px 16px;
+          text-decoration: none;
+          transition: background-color .3s;
+        }
+
+        /* Style the active/current link */
+        .pagination a.active {
+          background-color: dodgerblue;
+          color: white;
+        }
+
+        /* Add a grey background color on mouse-over */
+        .pagination a:hover:not(.active) {background-color: #ddd;}
+    
+    </style>
+
 </head>
 
 <body class="animsition">
@@ -48,14 +69,14 @@
             <div class="menu-sidebar2__content js-scrollbar1">
                 <div class="account2">
                     <div class="image img-cir img-120">
-                        <img src="images/icon/user.jpg" alt="User" />
+                        <img src="../../images/icon/user.jpg" alt="User" />
                     </div>
                     <h4 class="name">User</h4>
                     <a href="#">Sign out</a>
                 </div>
                 <nav class="navbar-sidebar2">
                     <ul class="list-unstyled navbar__list">
-                        <li class="active has-sub">
+                        <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-user"></i>User
                                 <span class="arrow">
@@ -92,7 +113,7 @@
                             </ul>
                         </li>
 
-                         <li class=" has-sub">
+                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-quote-left"></i>Phrasetext
                                 <span class="arrow">
@@ -101,19 +122,19 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="../phrasetext/phrasetext_landing.html">
                                         <i class="fas fa-search"></i>Search Phrasetext</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="../phrasetext/missing_phrasetext.html">
                                         <i class="fas fa-exclamation-circle"></i>Missing Translation</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
+                                    <a href="../phrasetext/list_phraseheads.html">
                                         <i class="fas fa-list-ol"></i>List Phraseheads</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="../phrasetext/new_phrasehead.html">
                                         <i class="far fa-plus-square"></i>New Phrasehead</a>
                                 </li>
                                
@@ -280,7 +301,7 @@
                                
                             </ul>
                         </li>
-                        <li class=" has-sub">
+                        <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-user-secret"></i>Admin
                                 <span class="arrow">
@@ -289,35 +310,35 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="admin_landing.php">
                                         <i class="far fa-calendar-alt"></i>Translations per month and user</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="admin_not_translated.html">
                                         <i class="fas fa-exclamation"></i>Missing Translations of Languagetexts</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
+                                    <a href="admin_country_not_translated.html">
                                         <i class="far fa-flag"></i>Missing Translations of Countrynames</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="admin_company_list.html">
                                         <i class="fas fa-list"></i>List of Companies</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="admin_new_company.html">
                                         <i class="far fa-plus-square"></i>New Company</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="admin_credit_point.html">
                                         <i class="fas fa-coins"></i>List Creditpoints</a>
                                 </li>
                                 
                                
                             </ul>
                         </li>
-                         <li class=" has-sub">
-                            <a class="js-arrow" href="#">
+                         <li class="active has-sub">
+                            <a class="js-arrow" href="help_landing.html">
                                 <i class="fas fa-question-circle"></i>Help
                                 <span class="arrow">
                                     <i class="fas fa-angle-down"></i>
@@ -325,27 +346,27 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="#">
                                         <i class="far fa-file-alt"></i>User Data and Registration</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="help_phrasetexts_translations.html">
                                         <i class="fas fa-globe-europe"></i>Phrasetexts and Translations</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
+                                    <a href="help_phrasecatalogues_mapping.html">
                                         <i class="fas fa-map-signs"></i>Phrasecatalogues and Mapping</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="help_import_export.html">
                                         <i class="fas fa-arrows-alt-h"></i>Import and Export</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="help_property_tree.html">
                                         <i class="fas fa-code-branch"></i>Propertytrees</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="help_labels.html">
                                         <i class="fas fa-tag"></i>Labels</a>
                                 </li>
                                 
@@ -481,7 +502,7 @@
                         <div class="header-wrap2">
                             <div class="logo d-block d-lg-none">
                                 <a href="#">
-                                    <img src="image/icon/logo-white.png" alt="CoolAdmin" />
+                                    <img src="../../image/icon/logo-white.png" alt="CoolAdmin" />
                                 </a>
                             </div>
                             <div class="header-button2">
@@ -585,20 +606,20 @@
             <aside class="menu-sidebar2 js-right-sidebar d-block d-lg-none">
                 <div class="logo">
                     <a href="#">
-                        <img src="images/icon/logo-white.png" alt="Cool Admin" />
+                        <img src="../../images/icon/logo-white.png" alt="Cool Admin" />
                     </a>
                 </div>
                 <div class="menu-sidebar2__content js-scrollbar2">
                     <div class="account2">
                         <div class="image img-cir img-120">
-                            <img src="images/icon/user.jpg" alt="User" />
+                            <img src="../../images/icon/user.jpg" alt="User" />
                         </div>
                         <h4 class="name">User</h4>
                         <a href="#">Sign out</a>
                     </div>
                     <nav class="navbar-sidebar2">
                     <ul class="list-unstyled navbar__list">
-                        <li class="active has-sub">
+                        <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>User
                                 <span class="arrow">
@@ -633,7 +654,7 @@
                             </ul>
                         </li>
 
-                         <li class=" has-sub">
+                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>Phrasetext
                                 <span class="arrow">
@@ -830,35 +851,35 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
-                                        <i class="fas fa-tachometer-alt"></i>Translations per month and user</a>
+                                    <a href="admin_landing.php">
+                                        <i class="far fa-calendar-alt"></i>Translations per month and user</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
-                                        <i class="fas fa-tachometer-alt"></i>Missing Translations of Languagetexts</a>
+                                    <a href="admin_not_translated.html">
+                                        <i class="fas fa-exclamation"></i>Missing Translations of Languagetexts</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
-                                        <i class="fas fa-tachometer-alt"></i>Missing Translations of Countrynames</a>
+                                    <a href="admin_country_not_translated.html">
+                                        <i class="far fa-flag"></i>Missing Translations of Countrynames</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>List of Companies</a>
+                                    <a href="admin_company_list.html">
+                                        <i class="fas fa-list"></i>List of Companies</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>New Company</a>
+                                    <a href="admin_new_company.html">
+                                        <i class="far fa-plus-square"></i>New Company</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>List Creditpoints</a>
+                                    <a href="admin_credit_point.html">
+                                        <i class="fas fa-coins"></i>List Creditpoints</a>
                                 </li>
                                 
                                
                             </ul>
                         </li>
-                         <li class=" has-sub">
-                            <a class="js-arrow" href="#">
+                         <li class="active has-sub">
+                            <a class="js-arrow" href="help_landing.html">
                                 <i class="fas fa-tachometer-alt"></i>Help
                                 <span class="arrow">
                                     <i class="fas fa-angle-down"></i>
@@ -866,28 +887,28 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
-                                        <i class="fas fa-tachometer-alt"></i>User Data and Registration</a>
+                                    <a href="#">
+                                        <i class="far fa-file-alt"></i>User Data and Registration</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
-                                        <i class="fas fa-tachometer-alt"></i>Phrasetexts and Translations</a>
+                                    <a href="help_phrasetexts_translations.html">
+                                        <i class="fas fa-globe-europe"></i>Phrasetexts and Translations</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
-                                        <i class="fas fa-tachometer-alt"></i>Phrasecatalogues and Mapping</a>
+                                    <a href="help_phrasecatalogues_mapping.html">
+                                        <i class="fas fa-map-signs"></i>Phrasecatalogues and Mapping</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>Import and Export</a>
+                                    <a href="help_import_export.html">
+                                        <i class="fas fa-arrows-alt-h"></i>Import and Export</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>Propertytrees</a>
+                                    <a href="help_property_tree.html">
+                                        <i class="fas fa-code-branch"></i>Propertytrees</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>Labels</a>
+                                    <a href="help_labels.html">
+                                        <i class="fas fa-tag"></i>Labels</a>
                                 </li>
                                 
                                
@@ -1024,12 +1045,12 @@
                                         <span class="au-breadcrumb-span">You are here:</span>
                                         <ul class="list-unstyled list-inline au-breadcrumb__list">
                                             <li class="list-inline-item active">
-                                                <a href="#">Phrasetext</a>
+                                                <a href="#">Help</a>
                                             </li>
                                             <li class="list-inline-item seprate">
                                                 <span>/</span>
                                             </li>
-                                            <li class="list-inline-item">Dashboard</li>
+                                            <li class="list-inline-item">Help on Phrasetexts and Translations</li>
                                         </ul>
                                     </div>
                                     <!--
@@ -1047,113 +1068,27 @@
 
             <!-- Container Start -->
             <center>
-                 <div class="col-lg-12">
+                            <br>
+                            <div class="col-lg-12">
                                 <div class="card">
                                     <div class="card-header">
-                                        Search for<strong> Phrasetext </strong>
+                                        <strong style="float: left;"><h3>Help Pages of the Phrasetool by Rimpido </h3></strong>
                                    </div>
                                     <div class="card-body card-block">
-                                        <form action="" method="post" class="form-horizontal">
-                                            <div class="row form-group">
-                                                <div class="col col-md-6">
-                                                    Phrasetext <br>
-                                                    <div class="input-group">
-                                                        <input type="text" id="input1-group2" name="input1-group2" placeholder="Insert Phrasetext" class="form-control">
-                                                    </div>
-                                                <hr>
-                                                </div>
-                                                <div class="col col-md-6">
-                                                    Language <br>
-                                                    <div class="btn-group">
-                                                                <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle btn btn-warning">Please Select.</button>
-                                                            <div tabindex="-1" aria-hidden="true" role="menu" class="dropdown-menu">
-                                                                <button type="button" tabindex="0" class="dropdown-item">Afrikaans - af</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Arabic - ar</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Bulgarian - bg</button>
-                                                            </div>
-                                                    </div>
-                                                <hr>
-                                                </div>
-
-                                                <div class="col col-md-6">
-                                                    <br>
-                                                    Phrasegroup <br>
-                                                    <div class="btn-group">
-                                                                <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle btn btn-warning">Please Select.</button>
-                                                            <div tabindex="-1" aria-hidden="true" role="menu" class="dropdown-menu">
-                                                                <button type="button" tabindex="0" class="dropdown-item">0.00</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">1.00</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">01.00</button>
-                                                            </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col col-md-6">
-                                                    <br>
-                                                    Phrasecode <br>
-                                                    <div class="input-group">
-                                                        <input type="text" id="input1-group2" name="input1-group2" placeholder="Insert Phrasecode" class="form-control">
-                                                    </div>
-                                                    <small>You may use "%" as wildcard operator for the search</small>
-                                                </div>
-                                                <div class="col col-md-6">
-                                                    <br>
-                                                    PhraseId <br>
-                                                    <div class="input-group">
-                                                        <input type="text" id="input1-group2" name="input1-group2" placeholder="Insert PhraseID" class="form-control">
-                                                    </div>
-                                                    <small>You may use "%" as wildcard operator for the search</small>
-                                                </div>
-                                                <div class="col col-md-6">
-                                                    <div class="form-check">
-                                                        <div class="checkbox">
-                                                            <label for="checkbox1" class="form-check-label ">
-                                                                <BR><BR>
-                                                                <input type="checkbox" id="checkbox1" name="checkbox1" value="option1" class="form-check-input">Restriction to the number of words<br>
-                                                                <small> The search will be limited by to a similar number of words as entered in the field Phrasentext. </small>
-                                                            </label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            <div class="col col-md-6">
-                                                    <br>
-                                                    Phrase Catalogue <br>
-                                                    <div class="btn-group">
-                                                                <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle btn btn-warning">Please Select.</button>
-                                                            <div tabindex="-1" aria-hidden="true" role="menu" class="dropdown-menu">
-                                                                <button type="button" tabindex="0" class="dropdown-item">ACT 01</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">ACT 20</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">EPOS</button>
-                                                            </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </form>
-                                            <button type="submit" class="btn btn-success btn-sm">
-                                                <i class="fa fa-dot-circle-o"></i> Submit
-                                            </button>
+                                        This help page is not available yet! <br>
+                                        Sorry, it will be added in a later version of this software.
                                     </div>
-                                        
+                                    </div>
+                                
+                                
+
                                 </div>
-                            </div>
 
-                                                    <div class="col-lg-12">
-                                <div class="card">
-                                    <div class="card-header">
-                                    <strong>Phrasetext Results</strong>
-                                   </div>
-                                    <div class="card-body card-block">
-                                        <div>
-                                        <strong>The search has no results!</strong><br><br>
-                                        <i>Do you want to add to this phrase? </i>
-                                        <button type="button" class="btn btn-warning" style="margin-left:1.5em;">Add Phrase</button>
-                                    </div>
-                                    </div>
-                                        
-                                </div>
-                            </div>
+                                <!-- MODAL -->
+
+                              
 
 
-            
             <!-- 
             <section class="statistic">
                 <div class="section__content section__content--p30">

@@ -10,7 +10,7 @@
     <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Phrasetext ~ Phrasetool by Rimpido</title>
+    <title>Help ~ Phrasetool by Rimpido</title>
 
     <!-- Fontfaces CSS-->
     <link href="../../css/font-face.css" rel="stylesheet" media="all">
@@ -34,6 +34,39 @@
     <!-- Main CSS-->
     <link href="../../css/theme.css" rel="stylesheet" media="all">
 
+    <style type="text/css">
+
+        .pagination a {
+          color: black;
+          float: left;
+          padding: 8px 16px;
+          text-decoration: none;
+          transition: background-color .3s;
+        }
+
+        /* Style the active/current link */
+        .pagination a.active {
+          background-color: dodgerblue;
+          color: white;
+        }
+
+        /* Add a grey background color on mouse-over */
+        .pagination a:hover:not(.active) {background-color: #ddd;}
+        .page-content li a{
+            color: orange;
+        }
+        .page-content li a:hover{
+            color: red;
+            transition: all 0.5s ease-in;
+        }
+        .page-content li
+        {
+            margin-left: 30px;
+        }
+
+    
+    </style>
+
 </head>
 
 <body class="animsition">
@@ -48,14 +81,14 @@
             <div class="menu-sidebar2__content js-scrollbar1">
                 <div class="account2">
                     <div class="image img-cir img-120">
-                        <img src="images/icon/user.jpg" alt="User" />
+                        <img src="../../images/icon/user.jpg" alt="User" />
                     </div>
                     <h4 class="name">User</h4>
                     <a href="#">Sign out</a>
                 </div>
                 <nav class="navbar-sidebar2">
                     <ul class="list-unstyled navbar__list">
-                        <li class="active has-sub">
+                        <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-user"></i>User
                                 <span class="arrow">
@@ -92,7 +125,7 @@
                             </ul>
                         </li>
 
-                         <li class=" has-sub">
+                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-quote-left"></i>Phrasetext
                                 <span class="arrow">
@@ -101,19 +134,19 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="../phrasetext/phrasetext_landing.html">
                                         <i class="fas fa-search"></i>Search Phrasetext</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="../phrasetext/missing_phrasetext.html">
                                         <i class="fas fa-exclamation-circle"></i>Missing Translation</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
+                                    <a href="../phrasetext/list_phraseheads.html">
                                         <i class="fas fa-list-ol"></i>List Phraseheads</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="../phrasetext/new_phrasehead.html">
                                         <i class="far fa-plus-square"></i>New Phrasehead</a>
                                 </li>
                                
@@ -280,7 +313,7 @@
                                
                             </ul>
                         </li>
-                        <li class=" has-sub">
+                        <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-user-secret"></i>Admin
                                 <span class="arrow">
@@ -289,35 +322,35 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="admin_landing.php">
                                         <i class="far fa-calendar-alt"></i>Translations per month and user</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="admin_not_translated.html">
                                         <i class="fas fa-exclamation"></i>Missing Translations of Languagetexts</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
+                                    <a href="admin_country_not_translated.html">
                                         <i class="far fa-flag"></i>Missing Translations of Countrynames</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="admin_company_list.html">
                                         <i class="fas fa-list"></i>List of Companies</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="admin_new_company.html">
                                         <i class="far fa-plus-square"></i>New Company</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="admin_credit_point.html">
                                         <i class="fas fa-coins"></i>List Creditpoints</a>
                                 </li>
                                 
                                
                             </ul>
                         </li>
-                         <li class=" has-sub">
-                            <a class="js-arrow" href="#">
+                         <li class="active has-sub">
+                            <a class="js-arrow" href="help_landing.html">
                                 <i class="fas fa-question-circle"></i>Help
                                 <span class="arrow">
                                     <i class="fas fa-angle-down"></i>
@@ -325,27 +358,27 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
+                                    <a href="#">
                                         <i class="far fa-file-alt"></i>User Data and Registration</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
+                                    <a href="help_phrasetexts_translations.html">
                                         <i class="fas fa-globe-europe"></i>Phrasetexts and Translations</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
+                                    <a href="help_phrasecatalogues_mapping.html">
                                         <i class="fas fa-map-signs"></i>Phrasecatalogues and Mapping</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="help_import_export.html">
                                         <i class="fas fa-arrows-alt-h"></i>Import and Export</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="help_property_tree.html">
                                         <i class="fas fa-code-branch"></i>Propertytrees</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="help_labels.html">
                                         <i class="fas fa-tag"></i>Labels</a>
                                 </li>
                                 
@@ -481,7 +514,7 @@
                         <div class="header-wrap2">
                             <div class="logo d-block d-lg-none">
                                 <a href="#">
-                                    <img src="image/icon/logo-white.png" alt="CoolAdmin" />
+                                    <img src="../../image/icon/logo-white.png" alt="CoolAdmin" />
                                 </a>
                             </div>
                             <div class="header-button2">
@@ -585,20 +618,20 @@
             <aside class="menu-sidebar2 js-right-sidebar d-block d-lg-none">
                 <div class="logo">
                     <a href="#">
-                        <img src="images/icon/logo-white.png" alt="Cool Admin" />
+                        <img src="../../images/icon/logo-white.png" alt="Cool Admin" />
                     </a>
                 </div>
                 <div class="menu-sidebar2__content js-scrollbar2">
                     <div class="account2">
                         <div class="image img-cir img-120">
-                            <img src="images/icon/user.jpg" alt="User" />
+                            <img src="../../images/icon/user.jpg" alt="User" />
                         </div>
                         <h4 class="name">User</h4>
                         <a href="#">Sign out</a>
                     </div>
                     <nav class="navbar-sidebar2">
                     <ul class="list-unstyled navbar__list">
-                        <li class="active has-sub">
+                        <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>User
                                 <span class="arrow">
@@ -633,7 +666,7 @@
                             </ul>
                         </li>
 
-                         <li class=" has-sub">
+                         <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>Phrasetext
                                 <span class="arrow">
@@ -830,35 +863,35 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
-                                        <i class="fas fa-tachometer-alt"></i>Translations per month and user</a>
+                                    <a href="admin_landing.php">
+                                        <i class="far fa-calendar-alt"></i>Translations per month and user</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
-                                        <i class="fas fa-tachometer-alt"></i>Missing Translations of Languagetexts</a>
+                                    <a href="admin_not_translated.html">
+                                        <i class="fas fa-exclamation"></i>Missing Translations of Languagetexts</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
-                                        <i class="fas fa-tachometer-alt"></i>Missing Translations of Countrynames</a>
+                                    <a href="admin_country_not_translated.html">
+                                        <i class="far fa-flag"></i>Missing Translations of Countrynames</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>List of Companies</a>
+                                    <a href="admin_company_list.html">
+                                        <i class="fas fa-list"></i>List of Companies</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>New Company</a>
+                                    <a href="admin_new_company.html">
+                                        <i class="far fa-plus-square"></i>New Company</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>List Creditpoints</a>
+                                    <a href="admin_credit_point.html">
+                                        <i class="fas fa-coins"></i>List Creditpoints</a>
                                 </li>
                                 
                                
                             </ul>
                         </li>
-                         <li class=" has-sub">
-                            <a class="js-arrow" href="#">
+                         <li class="active has-sub">
+                            <a class="js-arrow" href="help_landing.html">
                                 <i class="fas fa-tachometer-alt"></i>Help
                                 <span class="arrow">
                                     <i class="fas fa-angle-down"></i>
@@ -866,28 +899,28 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="index.html">
-                                        <i class="fas fa-tachometer-alt"></i>User Data and Registration</a>
+                                    <a href="help-user.html">
+                                        <i class="far fa-file-alt"></i>User Data and Registration</a>
                                 </li>
                                 <li>
-                                    <a href="index2.html">
-                                        <i class="fas fa-tachometer-alt"></i>Phrasetexts and Translations</a>
+                                    <a href="help_phrasetexts_translations.html">
+                                        <i class="fas fa-globe-europe"></i>Phrasetexts and Translations</a>
                                 </li>
                                 <li>
-                                    <a href="index3.html">
-                                        <i class="fas fa-tachometer-alt"></i>Phrasecatalogues and Mapping</a>
+                                    <a href="help_phrasecatalogues_mapping.html">
+                                        <i class="fas fa-map-signs"></i>Phrasecatalogues and Mapping</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>Import and Export</a>
+                                    <a href="help_import_export.html">
+                                        <i class="fas fa-arrows-alt-h"></i>Import and Export</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>Propertytrees</a>
+                                    <a href="help_property_tree.html">
+                                        <i class="fas fa-code-branch"></i>Propertytrees</a>
                                 </li>
                                 <li>
-                                    <a href="index4.html">
-                                        <i class="fas fa-tachometer-alt"></i>Labels</a>
+                                    <a href="help_labels.html">
+                                        <i class="fas fa-tag"></i>Labels</a>
                                 </li>
                                 
                                
@@ -1021,15 +1054,15 @@
                             <div class="col-md-12">
                                 <div class="au-breadcrumb-content">
                                     <div class="au-breadcrumb-left">
-                                        <span class="au-breadcrumb-span">You are here:</span>
+                                        <span class="au-breadcrumb-span"  id="topTopic">You are here:</span>
                                         <ul class="list-unstyled list-inline au-breadcrumb__list">
                                             <li class="list-inline-item active">
-                                                <a href="#">Phrasetext</a>
+                                                <a href="#">Help</a>
                                             </li>
                                             <li class="list-inline-item seprate">
                                                 <span>/</span>
                                             </li>
-                                            <li class="list-inline-item">Dashboard</li>
+                                            <li class="list-inline-item">Help on Property Trees</li>
                                         </ul>
                                     </div>
                                     <!--
@@ -1047,113 +1080,428 @@
 
             <!-- Container Start -->
             <center>
-                 <div class="col-lg-12">
+                            <br>
+                            <div class="col-lg-12">
+                                <div class="page-content">
                                 <div class="card">
                                     <div class="card-header">
-                                        Search for<strong> Phrasetext </strong>
-                                   </div>
+                                        <h3 style="float: left;">Help on Property Trees</h3>
+                                    </div>
                                     <div class="card-body card-block">
-                                        <form action="" method="post" class="form-horizontal">
-                                            <div class="row form-group">
-                                                <div class="col col-md-6">
-                                                    Phrasetext <br>
-                                                    <div class="input-group">
-                                                        <input type="text" id="input1-group2" name="input1-group2" placeholder="Insert Phrasetext" class="form-control">
-                                                    </div>
-                                                <hr>
-                                                </div>
-                                                <div class="col col-md-6">
-                                                    Language <br>
-                                                    <div class="btn-group">
-                                                                <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle btn btn-warning">Please Select.</button>
-                                                            <div tabindex="-1" aria-hidden="true" role="menu" class="dropdown-menu">
-                                                                <button type="button" tabindex="0" class="dropdown-item">Afrikaans - af</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Arabic - ar</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">Bulgarian - bg</button>
-                                                            </div>
-                                                    </div>
-                                                <hr>
-                                                </div>
+                                        <p style="text-align: left;">
+                                        <strong>This help document is still under development! <br>
+                                        <i>Further Information</i> will be added in later versions of the software. </strong> <br>
+                                        This section focuses on the concept of Propertytrees. Propertytrees and its inherit structures are a complex system to define a "Specification Database" where you may store all the data of (chemical) specifications. This data may include physical data, compositional information, chemical regulations, dangerous goods data, and further more. With the propertytrees you may setup different view on your data, in that way only part of the data is visible to a given user. There are serveral different conept to maintain this data, see below.<br>
+                                        <strong>The data maintenance is done in a similar fashion for all subtopics, also theuser screens are very similar. Please take a look at the trees first, if you need an overview of the user interface itself. </strong><br>
+                                        Please select one topic of the list below to get further information about the topic: <br>
+                                        <div style="text-align: left;">
+                                        <li> <a href="#generalInfo">General Info and Definition of Terms </a></li>
+                                        <li> <a href="#trees"> Trees with Properties </a></li>
+                                           
+                                            <li><a href="#propertyTree"> Propertytrees</a></li>
+                                            <li><a href="#propertyPane">Properties </a></li>
+                                            
+                                        <li> <a href="#classPane"> Classes with Attributes </a></li>
+                                            
+                                                <li><a href="#attributePane"> Attributes </a></li>
+                                                <li><a href="#classAttrRef"> Class-Attribute-References </a></li>
+                                                <li><a href="#phrasetAttrRef"> Phraseset-Attribute-References</a></li>
 
-                                                <div class="col col-md-6">
-                                                    <br>
-                                                    Phrasegroup <br>
-                                                    <div class="btn-group">
-                                                                <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle btn btn-warning">Please Select.</button>
-                                                            <div tabindex="-1" aria-hidden="true" role="menu" class="dropdown-menu">
-                                                                <button type="button" tabindex="0" class="dropdown-item">0.00</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">1.00</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">01.00</button>
-                                                            </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col col-md-6">
-                                                    <br>
-                                                    Phrasecode <br>
-                                                    <div class="input-group">
-                                                        <input type="text" id="input1-group2" name="input1-group2" placeholder="Insert Phrasecode" class="form-control">
-                                                    </div>
-                                                    <small>You may use "%" as wildcard operator for the search</small>
-                                                </div>
-                                                <div class="col col-md-6">
-                                                    <br>
-                                                    PhraseId <br>
-                                                    <div class="input-group">
-                                                        <input type="text" id="input1-group2" name="input1-group2" placeholder="Insert PhraseID" class="form-control">
-                                                    </div>
-                                                    <small>You may use "%" as wildcard operator for the search</small>
-                                                </div>
-                                                <div class="col col-md-6">
-                                                    <div class="form-check">
-                                                        <div class="checkbox">
-                                                            <label for="checkbox1" class="form-check-label ">
-                                                                <BR><BR>
-                                                                <input type="checkbox" id="checkbox1" name="checkbox1" value="option1" class="form-check-input">Restriction to the number of words<br>
-                                                                <small> The search will be limited by to a similar number of words as entered in the field Phrasentext. </small>
-                                                            </label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            <div class="col col-md-6">
-                                                    <br>
-                                                    Phrase Catalogue <br>
-                                                    <div class="btn-group">
-                                                                <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="dropdown-toggle btn btn-warning">Please Select.</button>
-                                                            <div tabindex="-1" aria-hidden="true" role="menu" class="dropdown-menu">
-                                                                <button type="button" tabindex="0" class="dropdown-item">ACT 01</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">ACT 20</button>
-                                                                <button type="button" tabindex="0" class="dropdown-item">EPOS</button>
-                                                            </div>
-                                                    </div>
-                                                </div>
+                                            
+                                        <li> <a href="#phraseSetPane"> Phrasesets </a></li>
+                                           
+                                                <li> <a href="#managePhraseSetsPhrases"> Managing Phrasesets & Phrase </a> </li>
+                                                <li> <a href="#copyPhraseSets"> Copy Phrasesets (from one catalogue to another) </a></li>
+                                        </div>
+                                            
+                                    </p>
+                                    </div>
+                                </div>
+
+
+                                 <div class="card">
+                                    <div class="card-header">
+                                         <h5 style="float: left;" id="generalInfo">General Info and Definition of Terms</h5>
+                                    </div>
+                                    <div class="card-body card-block">
+                                        <div class="row">
+                                        <div class="col-md-6">
+                                        <p style="text-align: justify;">
+                                            Propertytrees (as used in this software) are a concept to structure the visibilty of data from datasets as implemented in SAP® R3 EHS-module. <br>
+                                            The concept of Propertytrees is complex and includes different aspects. These aspects are listed below:
+
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <tr>
+                                                        <td>
+                                                            <b>
+                                                                Propertytree (Tree)
+                                                            </b>
+                                                        </td>
+                                                        <td>
+                                                            A Propertytree is a tree-like structure consisting of many Properties. On a system with the same Properties more than one Propertytree may exist. These trees defines the visible Properties and their hierarchical order when using the tree.
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <b>
+                                                                Properties
+                                                            </b>
+                                                        </td>
+                                                        <td>
+                                                            Properties define the settings for the nodes and leaves in a tree. There are several types of Properties but mostly only Node and Leaf is used. The Leaf always contains a Class and mostly they are labelled in the same way. Nodes and Leaves may not be mixed up.
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <b>
+                                                                Classess
+                                                            </b>
+                                                        </td>
+                                                        <td>
+                                                            The Classes are the link between Properties (and thus Propertytrees) and Attributes (which actually describe fields). Many Attributes are packed in one Class. The Class can be seen as their common topic/ heading, e.g. the Density.
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <b>
+                                                                Attributes
+                                                            </b>
+                                                        </td>
+                                                        <td>
+                                                            Attributes are always linked to a Class. The are referenced to one special field representing one characteristic aspect of the Class, e.g. the Unit of the Density. The Attribute is mostly labbeled as an extensio of the Class-labelling.
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <b>
+                                                                Phrasesets
+                                                            </b>
+                                                        </td>
+                                                        <td>
+                                                            Many Attributes are simply values but many other Attributes may only hold a selection of special Phrases, e.g. signal word for GHS-labelling. These selection of Phrases are called Phraseset. It is a set of Phrases which is valid for a Attribute. Mostly the Phraseset is labelled the same way a the Attribute.
+                                                        </td>
+                                                    </tr>
+                                                </table>
                                             </div>
-                                        </form>
-                                            <button type="submit" class="btn btn-success btn-sm">
-                                                <i class="fa fa-dot-circle-o"></i> Submit
-                                            </button>
-                                    </div>
-                                        
-                                </div>
-                            </div>
 
-                                                    <div class="col-lg-12">
+                                            <p style="text-align: left;">
+                                            This software has the capability to use the different aspects from the table above. You may link the aspects against each other where appropriate.<br>
+                                            <b>Please note:</b> As this part does only make sense if you have a lot of data loaed in the software, it is a good start to upload your data via import function first. After you have uploaded one ore more import-files, you can manage your data in this software and profit from it's user interface.
+                                            </p>
+                                            <div> <a href="#topTopic">Return to Top</a></div>  
+                                        </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
                                 <div class="card">
                                     <div class="card-header">
-                                    <strong>Phrasetext Results</strong>
-                                   </div>
+                                         <h5 style="float: left;" id="trees">Trees</h5>
+                                    </div>
                                     <div class="card-body card-block">
-                                        <div>
-                                        <strong>The search has no results!</strong><br><br>
-                                        <i>Do you want to add to this phrase? </i>
-                                        <button type="button" class="btn btn-warning" style="margin-left:1.5em;">Add Phrase</button>
+                                        <div class="row">
+                                        <div class="col-md-6">
+                                        <p style="text-align: justify;">
+                                            A tree itself is just an identificator which can be labelled in different languages. The really useful data is in the reference between properties and trees which is the propertytree. The propertytree groups properties in a tree-like structure so that the properties form its nodes and leaves.
+                                            <br>
+                                            First you have to add a new tree (giving it a name) to add properties afterwards. You can start using the index page, which lists all knwon trees. On that page you may view, edit, label or delete a tree and you also may view the propertytree of the selected tree. <br>
+                                            The labelling of elements is basically done always on the same type of form. On that form you'll get the main languages displayed in rows and you may click on the "Edit ..."-field which enables editing via JavaScript.
+                                            <br>
+                                            If you have entered any text before, e.g. Rimpido Standard Selectiontree, this will be displayed. You may change this also by clicking on the text element. You must have JavaScript enabled to use this functionallity.
+                                            <div> <a href="#topTopic">Return to Top </a></div>  
+                                        </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            
+                                        </div>
+                                        </div>
                                     </div>
-                                    </div>
-                                        
                                 </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                         <h5 style="float: left;" id="propertyTree">Property Trees</h5>
+                                    </div>
+                                    <div class="card-body card-block">
+                                        <div class="row">
+                                        <div class="col-md-6">
+                                        <p style="text-align: justify;">
+                                            The Propertytree (as most other referencing tables) is displayed via a special tree-view. This tree view highly relies on JavaScript-technology, thus a modern, standard-compliant browser is higly recommended.
+                                            On the initial view all nodes are collapsed. By clicking on the triangle of a node all of its leaves (which can also be nodes) will be displayed.<br>
+                                            You may rearrange the leaves and nodes via drag and drop, via the buttons of the menubar and via context menu (accessable via right mouse click). Please be patient while using this view. Some functions will need some time to get the data saved and displayed.<br>
+                                            Nodes are a special type of property (which defines its use as node). <br><br>
+                                            <b>Please note:</b> If you use a normal leaf as a node, you'll get informed in this view that you are using a property which ist not defined as node. You must either change the propety to be node or rearrange the tree.
+                                            Below the Propertytree you'll find two listings of Properties.
+                                            <br><br>
+                                            The first listing contains all Properties which are defined ads nodes, the Properties may contain other Properties below (in the tree structure). With these nodes you may arrange your Properties in the Tree hierarchically. You can easily add the Propetries via Drag'n'Drop. Dragging a Node will not remove it from the list as you may use the same node multiple times in one tree.
+                                            <br>
+                                            The other listing contains all Properties which are not defined as leaves, thus these Propetries may not contain further Properties. Generally these Properties contain a reference to a class (see below) defining your attributes which shall be listed and maintained at this node. So you may now group your Property-leaves (and thus your classes) in different Property-nodes.<br>
+                                            By clicking the "tab close"-button, the current listing will be collapsed and hidden, so you can focus on one of the two listings. Furthermore you do not have to Drag'n'Drop the Properties over a long way with your mouse. <br>
+                                            There are some buttons / icons which will be explained below:<br>
+                                            <li>This is the search button, which submits a search on the current listing.</li>
+                                            <li> This is the delete button. After selecting a Phrase you can delete it from the Phraseset with this button or via rightclick.</li>
+                                            <li>This is the refresh button. You can refresh the whole listing with this button.</li>
+                                            <li>This is the root icon. The root icon is the base element in the lists, it cannot be deleted or dragged.</li>
+                                            <li>This is the folder icon. In this case the folder is equal to a node Property.</li>
+                                            <li> This is the property icon, it represents a Property (which is displayed in English).</li>
+                                            <li>This is the close button, which closes the listing giving you more space on the other listings.</li>
+                                            <li>This is the open button, which (re)opens the listing to make it visible.</li>
+                                        </p>
+                                        <div> <a href="#topTopic">Return to Top </a></div> 
+                                        </div>
+                                        <div class="col-md-6">
+                                            
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                         <h5 style="float: left;" id="propertyPane">Properties</h5>
+                                    </div>
+                                    <div class="card-body card-block">
+                                        <div class="row">
+                                        <div class="col-md-6">
+                                        <p style="text-align: justify;">
+                                            Properties are the entries in a Propertytree. You can have more Properties than you have put in your Propertytrees and you can add a Property to more than one Propertytree. <br>
+                                            On the index page you'll get all your Propeerties displayed and additionally the corresponding class if it exists.<br>
+                                            Each property consists of many values, which must be set to get an properly configured Property:<br>
+                                            <b>Property Code:</b> This code is an expressie representation fo the Property. It may be used as an identifier in other systems (such as SAP&reg). <br>
+                                            <b>Class: </b> If your Type requires a Class, you have to select one here. Normally, the PropertyCode and the Class are the same. <br>
+                                            <b> Type: </b> You have to select a class from the list (list is shown below). The type defines the Property and puts it to the nodes or the leaves
+                                            <b> Allow Copies: </b> Select this option if multiple copies of your Property may be used in your Specification Database. (Standard) <br>
+                                            <b> Allow new entry: </b> Select this option if new entries of your Property may be made in your Specification Database (Standard) <br>
+                                            <b> Allow Changing: </b>Select this option if your Property may be changes in your Specification Database (Standard)<br>
+                                            <b> Allow Changing: </b> Select this option if your Property may be changes in your Specification Database <br>
+                                            <b> Individual Instance: </b> Select this option if your Property may be used only in a single instance in your Specification Database. <br>
+                                            <b> Internal: </b> Select this option if your Property may be used internally only in your Specification Database. <br>
+                                            <b> Profile: </b> Add a Profile for your Property to be used in your Specification Database <br>
+                                            There are several Types which may be used for your Property: <br>
+                                            <b> A: </b> Standard Property. This is the standard leaf-property which must consist of a Class. <br>
+                                            <b> B: </b> This Property defines a listing. This is also a leaf-property which must consist of a Class. <br>
+                                            <b>C: </b> This Property defines a composition. This is also a leaf-property which must consist of a Class. <br>
+                                            <b>D: </b> This type is not in use at the moment. <br>
+                                            <b>E: </b> Node Property. This Property is a node and thus may not consist of a Class. <br>
+                                            <b>F: </b> Transport Classification. This Property is used as Classification of Transports. <br>
+                                            <b>G: </b> DG-additional data. This Property is used for additional DG-data for Dangerous Goods data. <br>
+                                            <b> H: </b> Hazard Induzing Substance. This Property defines the HIS for Dangerous Goods data.<br>
+                                            Normally you should select "A" or "E". If you select a different value, you have to be careful for any side-effect. <br> Please note: At the moment the Type is not used be the Phrasetool by Rimpido, but there are used in other systems (e.g. SAP®). <br>
+                                            As mentioned above the labelling of elements is basically done always on the same type of form. On that form you'll get the main languages displayed in rows and you may click on the "Edit ..."-field which enables editing via JavaScript.
+                                            If you have entered any text before, e.g. Rimpido Standard Property, this will be displayed. You may change this also by clicking on the text element. You must have JavaScript enabled to use this functionallity.
+                                        </p>
+                                        <div> <a href="#topTopic">Return to Top </a></div> 
+                                        </div>
+                                        <div class="col-md-6">
+                                            
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                         <h5 style="float: left;" id="classPane">Classes</h5>
+                                    </div>
+                                    <div class="card-body card-block">
+                                        <div class="row">
+                                        <div class="col-md-6">
+                                        <p style="text-align: justify;">
+                                            Classes in this concept are more ore less only used to group Attributes. Thus the Propertytree with its Properties indirectly points to Attributes as all Attributes are grouped in Classes. The Classes used in this section must have a type of "100", which is also displayed on the index page. <br> 
+                                            Adding or editing a Class is quit easy as you have to enter a Classe Code and the Type only. Normally the Class Code should be the same one (later) used in the Property. In this way you won't mix up the corresponding Properties and Classes and get confused be different Codes for corresponding elements. The Class Type should always be 100. This value does not effect the system (at the moment) but may effect Third Party systems. <br>
+                                            <div> <a href="#topTopic">Return to Top </a></div>  
+                                        </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                         <h5 style="float: left;" id="attributePane">Attributes</h5>
+                                    </div>
+                                    <div class="card-body card-block">
+                                        <div class="row">
+                                        <div class="col-md-6">
+                                        <p style="text-align: justify;">
+                                            The information in your Specification Database may be of different type, e.g numeric values or characters, the attributes defines these parameters. Each Attribute must be grouped in a Class to be used. Attributes which are not referenced to a (used) Class cannot be access in your Specification Database at all. Additionally each Attribute can be labelled.<br>
+                                            As Attributes consist of some parameters, these must be set while adding or editing an Attribute. These parameters are as follows: <br>
+                                            <b>Attribute Code: </b> This is a expressive representation of the Attribute. Normally it is an extension to the Class Code staring with underscore (_). <br>
+                                            <b>Type:</b> Attribute may be of different Type: Characters, Numbers, Currency values, Dates and Times. <br>
+                                            <b>Positions:</b> The length of the value. In case of numbers and currency values it's only the pre-decimal places. Maximum is 30, Attributes of Type character which are longer than 29 characters must be set to 30. <br>
+                                            <b>Decimal places:</b> Only in use for numbers and currency values.<br>
+                                            <b>Signed value:</b> Must be set if you do not have positiv values only.<br>
+                                            <b>Measurement Unit: </b> If there is an internal maesurement unit in use fpr this Attribute, enter it here.<br>
+                                            <b>Single Value: </b> If the Attribute represents a single value, i.e. only value value may be set, this field must be checked.<br>
+                                            <b>Intervall Value: </b> If the Attribute represents an intervall, then check this field.<br>
+                                            <b>Case-sensitive: </b> If the Attribute represents a case-sensitive value, then check this field.<br>
+                                            <b>Testing function: </b> If the Attribute represents a value which has to be checked against a function, then add the function here.<br>
+                                            <b>Testing table:</b> Alternatively, you may check the value against a table, add this table here.<br>
+                                            Status: The Attribute may be of either "not released" (0) or "relesed" (1) status. <br>
+                                            As mentioned above the labelling of elements is basically done always on the same type of form. On that form you'll get the main languages displayed in rows and you may click on the "Edit ..."-field which enables editing via JavaScript.<br>
+                                            If you have entered any text before, e.g. Special Attribute, this will be displayed. You may change this also by clicking on the text element. You must have JavaScript enabled to use this functionality. <br>
+                                            <div> <a href="#topTopic">Return to Top </a></div>  
+                                        </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                         <h5 style="float: left;" id="classAttrRef">Class-Attributes-References</h5>
+                                    </div>
+                                    <div class="card-body card-block">
+                                        <div class="row">
+                                        <div class="col-md-6">
+                                        <p style="text-align: justify;">
+                                            As you can manage the Properties to the Trees (Propertytrees) via Drag'n'Drop, you can also manage your Class-Attribute-References. <br><b>Please note:</b> These screens rely on JavaScript, a modern, standard-compliant browser is highly recommended.<br>
+                                            The screen is splitted in two views: On top you'll find all Classes (with the referenced Attributes) and below you'll find all Attributes. We start with the top screen, see right. <br>
+                                            In this listing you'll find all your Classes as nodes. Initially these nodes are collapsed, on clicking on the triangle the node opens and all referenced Attributes will be loaded on demand. You may rearrange and add Attributes via Drag'n'Drop or via context menu (accessable via right mouse click). You can also delete an Attribute from a Class by selecting it and clicking the delete button.<br>
+                                            The second screen gives you a list with all your attributes. You can add an Attribute to a Class via Drag'n'Drop in the upper listing and so you can fill all your Classes with the appropriate Attributes.<br>
+                                            Additionally (as in all listings) it is possible to search for Attributes using the search bar. You may ether search for an Attribute's labelling or for an Attribute's code. The search is expaned with wildcards (*) before and after the entered search string (the same applies to the search of Classes).<br>
+                                            <div> <a href="#topTopic">Return to Top </a></div>  
+                                        </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="card">
+                                    <div class="card-header">
+                                         <h5 style="float: left;" id="phrasetAttrRef">Phraseset-Attributes-References</h5>
+                                    </div>
+                                    <div class="card-body card-block">
+                                        <div class="row">
+                                        <div class="col-md-6">
+                                        <p style="text-align: justify;">
+                                            The Phraseset-Attribute-References are maintained the same way as the Class-Attribute-References, but additionally to the Phraseset also a Property must be added. You may use this screen the same way as all other tree-like structured screens: Drag'n'Drop for adding and rearranging elements, context menu or menu button for deleting and the search bar to restrict the displayed elements.<br>
+                                            You can add all the Phrasesets to Attributes first. But after your work is done, all Phrasesets must contain a Property! Take the two listings below the main listing to maintain Phrasesets and Properties in your Attributes. <br>
+                                            <b>Please note:</b> Normally one Attribute contains one Phraseset which contains one Property. This reference will be saved in a single row as an one-to-one-to-one relationship! <br>
+                                            <div> <a href="#topTopic">Return to Top </a></div>  
+                                        </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                         <h5 style="float: left;" id="phraseSetPane">Phrasesets</h5>
+                                    </div>
+                                    <div class="card-body card-block">
+                                        <div class="row">
+                                        <div class="col-md-6">
+                                        <p style="text-align: justify;">
+                                            As mentioned above the Phraseset is a Label for a special selection of Phrases. It is highly used for Attributes which are no values but may only hold a small selection of Phrases. Phrasesets are linked to Propertytrees as well as to Phrasecatalogues. <br>
+                                            A Phraseset which is linked to neither an Attribute nor a Phrase is not useful, because it acts as the linking element between the both aspects. <br>
+                                            Within the Phrasetool by Rimpido it is possible to manage the Phrasesets — meaning to add, edit and remove Phrases to a Phraseset — and to copy Phrasesets from one catalogue to another. <br>
+                                        </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                         <h5 style="float: left;" id="managePhraseSetsPhrases">Managing Phrasesets and Phrases</h5>
+                                    </div>
+                                    <div class="card-body card-block">
+                                        <div class="row">
+                                        <div class="col-md-6">
+                                        <p style="text-align: justify;">
+
+                                           If you click on "List Phrasesets" you are actually redirected to the Phraseset-Phrase-Reference index page. Normally you should have imported all necessary Phrasesets and Phraseset-Attribute-references via Propertytree-import. <br>
+                                           On that index page it is possible to add, edit, or remove Phrases from a Phraseset. In the upper half the Phraseset-Phrase-references are displayed. The Phrasesets are displayed as nodes, and clicking on the triangle opens the node (Phraseset) and displaying all the Phrases which are referenced to this Phraseset. You can restrict the displayed Phraseset by the search field.
+                                           On the lower half all the Phrases — restricted to 350 Phrase — will be displayed. To add a Phrase just drag it with your mouse from the list and put it on one of the nodes (Phrasesets) in the upper list. A green mark should appear, then you can drop the Phrase. Aftwards the whole listing of Phrasesets will be refreshed. This may take a while. The Phrases can also be restricted by using the search field. <b>Please note:</b> The result will always be displayed in English but you may search in any language where you Phrase exists in. (This may be changed in later versions.)  <br>
+
+                                           There are some buttons / icons which will be explained below:
+                                           <li>Search Button This is the search button, which submits the search.</li>
+                                           <li>Delete Button This is the delete button. After selecting a Phrase you can delete it from the Phraseset with this button or via rightclick.</li>
+                                           <li>Refresh Button This is the refresh button. You can refresh the whole listing with this button.</li>
+                                           <li>Folder Icon This is the folder icon. In this case the folder is equal to a Phraseset.</li>
+                                           <li>Phrase Icon This is the Phrase icon, it represents a Phrase (which is displayed in English).</li>
+                                           <li>TabClose Button This is the close button, which closes the listing giving you more space on the other listings.</li>
+                                           <li>TabOpen Button This is the open button, which (re)opens the listing to make it visible.</li>
+
+
+                                        </p>
+                                        </div>
+                                        <div class="col-md-6">
+                                            
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                         <h5 style="float: left;" id="copyPhraseSets">Copy Phrasesets (From one catalogue to another)</h5>
+                                    </div>
+                                    <div class="card-body card-block">
+                                        <div class="row">
+                                        <div class="col-md-6">
+                                        <p style="text-align: justify;">
+
+                                            One unique function of the Phrasetool by Rimpido is the option to map two (or more) Phrasecatalogues against each other.<br>
+                                            With the Mapping functionality it is possible to use the Phrasesets from a Propertytree A, which is related to Phrasecatlogue A, with the Phrases from Phrasecatalogue B. Prior to use the Copy function you have to fully map the two Phrasecatalogues, i.e. automatic mapping and manual mapping must be done completely.<br>
+                                            <b>Please note:</b> The direction of the mapping is critical for the Copy process. If you take our example, you have to map Phrasecatalogue A (with the references to Propertytree A) as "Origin Catalogue" map it against Phrasecatalogue B as "Target Catalogue". Otherwise you copying will result in an error.
+                                            <br>
+                                            You have to select the "Origin Catalogue" and the "Target Catalogue" and sumbitting the form.
+                                            After submitting the form, the Copy function will start. It will go through all Phrasesets referenced to the "Origin Catalogue", looking for every Phrase using the Mapping, and will add a reference for that Phraseset to the mapped Phrase of the "Target Catalogue". If no Phrase of the "Target Catalogue" is mapped to the current Phrase of the "Origin Catalogue" no new reference will be written. This should result in many new references for the Phrasesets with the "Target Catalogue". If all Phrases of the "Origin Catalogue" could be mapped against a Phrase of the "Target Catalogue", the new references are equal in number to the old ones.<br>
+                                            The new references can be edited using the Phraseset Mangament Tool (see above) and afterwards they can be exported and used by other systems.
+
+                                            During the copy process, a progress bar will be displayed.<br>
+                                            The progressbar shows how many Phrasesets (in percent) have been copied yet.<br>
+                                            As like the other backgroun processes, you have to wait until the progressbar comes to an end. You may use any other browser tab or programm as long as it does not effect this tab.<br>
+
+                                            Result screen after copying Phrasesets<br>
+                                            After a successful Copy process the results will be printed out. The result should normally reflect the Mapping process in that way that only mapped Phrases will result in a new Phraaseset-Phrase-reference.<br>
+                                            If you missed to match all Phrases some Phraseset may be empty and thus no new references can be created. In this example (seen right) only a tenth of all Phraseset could be copied as only about 15 percent of all Phrases were mapped.<br>
+                                            Please consider to use this function again if you have significantally added mappings between the two Phrasecatalogues.<br>
+
+                                        </p>
+
+                                        <div> <a href="#topTopic">Return to Top </a></div>  
+                                        </div>
+                                        <div class="col-md-6">
+                                            
+                                        </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
                             </div>
+                        </div>
+
+                                <!-- MODAL -->
+
+                              
 
 
-            
             <!-- 
             <section class="statistic">
                 <div class="section__content section__content--p30">
