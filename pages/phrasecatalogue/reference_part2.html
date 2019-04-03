@@ -1,23 +1,135 @@
-<body class="animsition">
-    <div class="page-wrapper">
-        <!-- MENU SIDEBAR-->
-        <aside class="menu-sidebar2">
-            <div class="logo">
-                <a href="#">
-                    <img src="" alt="" />
-                </a>
-            </div>
-            <div class="menu-sidebar2__content js-scrollbar1">
-                <div class="account2">
-                    <div class="image img-cir img-120">
-                        <img src="../../images/icon/user.jpg" alt="User" />
+        <!-- PAGE CONTAINER-->
+        <div class="page-container2">
+            <!-- HEADER DESKTOP-->
+            <header class="header-desktop2">
+                <div class="section__content section__content--p30">
+                    <div class="container-fluid">
+                        <div class="header-wrap2">
+                            <div class="logo d-block d-lg-none">
+                                <a href="#">
+                                    <!-- LOGO HERE -->
+                                </a>
+                            </div>
+                            <div class="header-button2">
+                                <div class="header-button-item js-item-menu">
+                                    <i class="zmdi zmdi-search"></i>
+                                    <div class="search-dropdown js-dropdown">
+                                        <form action="">
+                                            <input class="au-input au-input--full au-input--h65" type="text" placeholder="Search Phrasetext" />
+                                            <span class="search-dropdown__icon">
+                                                <i class="zmdi zmdi-search"></i>
+                                            </span>
+                                        </form>
+                                    </div>
+                                </div>
+                                <!--
+                                <div class="header-button-item has-noti js-item-menu">
+                                    <i class="zmdi zmdi-notifications"></i>
+                                    <div class="notifi-dropdown js-dropdown">
+                                        <div class="notifi__title">
+                                            <p>You have 3 Notifications</p>
+                                        </div>
+                                        <div class="notifi__item">
+                                            <div class="bg-c1 img-cir img-40">
+                                                <i class="zmdi zmdi-email-open"></i>
+                                            </div>
+                                            <div class="content">
+                                                <p>You got a email notification</p>
+                                                <span class="date">April 12, 2018 06:50</span>
+                                            </div>
+                                        </div>
+                                        <div class="notifi__item">
+                                            <div class="bg-c2 img-cir img-40">
+                                                <i class="zmdi zmdi-account-box"></i>
+                                            </div>
+                                            <div class="content">
+                                                <p>Your account has been blocked</p>
+                                                <span class="date">April 12, 2018 06:50</span>
+                                            </div>
+                                        </div>
+                                        <div class="notifi__item">
+                                            <div class="bg-c3 img-cir img-40">
+                                                <i class="zmdi zmdi-file-text"></i>
+                                            </div>
+                                            <div class="content">
+                                                <p>You got a new file</p>
+                                                <span class="date">April 12, 2018 06:50</span>
+                                            </div>
+                                        </div>
+                                        <div class="notifi__footer">
+                                            <a href="#">All notifications</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            -->
+                                <div class="header-button-item mr-0 js-sidebar-btn">
+                                    <i class="zmdi zmdi-menu"></i>
+                                </div>
+                                <div class="setting-menu js-right-sidebar d-none d-lg-block">
+                                    <div class="account-dropdown__body">
+                                        <div class="account-dropdown__item">
+                                            <a href="#">
+                                                <i class="zmdi zmdi-account"></i>Account</a>
+                                        </div>
+                                        <!--
+                                        <div class="account-dropdown__item">
+                                            <a href="#">
+                                                <i class="zmdi zmdi-settings"></i>Setting</a>
+                                        </div>
+                                        <div class="account-dropdown__item">
+                                            <a href="#">
+                                                <i class="zmdi zmdi-money-box"></i>Billing</a>
+                                        </div>
+                                    -->
+                                    </div>
+                                    <div class="account-dropdown__body">
+                                        <div class="account-dropdown__item">
+                                            <a href="../user/system-status.html">
+                                                <i class="fas fa-signal"></i>System Status</a>
+                                        </div>
+                                        <div class="account-dropdown__item">
+                                            <a href="../privacy/impress.html">
+                                                <i class="fas fa-info"></i>Impress</a>
+                                        </div>
+                                        <div class="account-dropdown__item">
+                                            <a href="../privacy/privacy-statement.html">
+                                                <i class="fas fa-lock"></i>Privacy Statement</a>
+                                        </div>
+                                        <!--
+                                        <div class="account-dropdown__item">
+                                            <a href="#">
+                                                <i class="zmdi zmdi-notifications"></i>Notifications</a>
+                                        </div>
+                                    -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h4 class="name">User</h4>
-                    <a href="#">Sign out</a>
                 </div>
-                <nav class="navbar-sidebar2">
+
+            <!-- TO DO: DIRECTORY PATHS -->
+            </header>
+            <aside class="menu-sidebar2 js-right-sidebar d-block d-lg-none">
+                <div class="logo">
+                    <a href="#">
+                        <!-- LOGO -->
+                    </a>
+                </div>
+                <div class="menu-sidebar2__content js-scrollbar2">
+                    <div class="account2">
+                        <div class="image img-cir img-120">
+
+                            <!-- USER IMAGE -->
+                            <img src="../../images/icon/user.jpg" alt="User" />
+
+                        </div>
+                        <h4 class="name">User</h4>
+                        <a href="#">Sign out</a>
+                    </div>
+                    <nav class="navbar-sidebar2">
                     <ul class="list-unstyled navbar__list">
-                        <li class=" has-sub">
+                        <li class="has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-user"></i>User
                                 <span class="arrow">
@@ -30,7 +142,7 @@
                                         <i class="fas fa-users"></i>List Of Users</a>
                                 </li>
                                 <li>
-                                    <a href="#.html">
+                                    <a href="#">
                                         <i class="fas fa-user-plus"></i>New User</a>
                                 </li>
                                 <li>
@@ -43,14 +155,14 @@
                                 </li>
                                 <li>
                                     <a href="../user/edit_company.html">
-                                        <i class="far fa-edit"></i>Edit Company</a>
+                                        <i class="fas fa-edit"></i>Edit Company</a>
                                 </li>
-                                <!--
+                                
                                 <li>
-                                    <a href="index4.html">
+                                    <a href="../user/system-status.html">
                                         <i class="fas fa-tachometer-alt"></i>System Status</a>
                                 </li>
-                            -->
+                            
                             </ul>
                         </li>
 
@@ -76,13 +188,14 @@
                                 </li>
                                 <li>
                                     <a href="../phrasetext/new_phrasehead.html">
-                                        <i class="far fa-plus-square"></i>New Phrasehead</a>
+                                        <i class="fas fa-plus-square"></i>New Phrasehead</a>
                                 </li>
                                
                             </ul>
                         </li>
 
-                        <li class="active has-sub">
+
+                         <li class="active has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-list-alt"></i>Phrasecatalogue
                                 <span class="arrow">
@@ -98,6 +211,7 @@
                                     <a href="new_phrasecatalogue.php">
                                         <i class="fas fa-plus"></i>New Phrasecatalogue</a>
                                 </li>
+                                
                                 <li class="has-sub2">
                                     <a class="js-arrow" href="#">
                                         <i class="fas fa-file-download"></i>Import
@@ -129,6 +243,7 @@
 
                                     </ul>
                                 </li>
+
                                 <li class="has-sub">
                                     <a class="js-arrow" href="#">
                                         <i class="fas fa-file-export"></i>Export
@@ -166,7 +281,7 @@
 
                                 <li class="has-sub">
                                     <a class="js-arrow" href="#">
-                                        <i class="fas fa-greater-than-equal"></i>Comparison
+                                        <i class="fas fa-file-download"></i>Comparison
                                         <span class="arrow">
                                            <i class="fas fa-angle-down"></i>
                                         </span>
@@ -189,7 +304,6 @@
                                     </ul>
                                 </li>
 
-                                
                                 <li>
                                     <a href="resume_phrase_mapping.html">
                                         <i class="fas fa-map"></i>Resume Phrase mapping</a>
@@ -206,7 +320,7 @@
                                     <a href="compress_phrasecatalogue.html">
                                         <i class="fas fa-compress"></i>Compress Phrasecatalogue</a>
                                 </li>
-                                 <li class="has-sub">
+                                <li class="has-sub">
                                     <a class="js-arrow" href="#">
                                         <i class="fas fa-eye"></i>View Special Data
                                         <span class="arrow">
@@ -248,12 +362,11 @@
                                 
                             </ul>
                         </li>
-                        
-                        <!-- EXCLUDE PROPERTY TREE -->
 
-<!--                        <li class=" has-sub">
+                        <!-- EXCLUDE PROPERTY TREE -->
+         <!--               <li class=" has-sub">
                             <a class="js-arrow" href="#">
-                                <i class="fas fa-tree"></i>Property Tree
+                                <i class="fas fa-tachometer-alt"></i>Property Tree
                                 <span class="arrow">
                                     <i class="fas fa-angle-down"></i>
                                 </span>
@@ -261,52 +374,52 @@
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
                                     <a href="index.html">
-                                        <i class="fas fa-list-ol"></i>List Trees</a>
+                                        <i class="fas fa-tachometer-alt"></i>List Trees</a>
                                 </li>
                                 <li>
                                     <a href="index2.html">
-                                        <i class="fas fa-arrow-circle-down"></i>Property Tree Import</a>
+                                        <i class="fas fa-tachometer-alt"></i>Property Tree Import</a>
                                 </li>
                                 <li>
                                     <a href="index3.html">
-                                        <i class="fas fa-arrow-circle-up"></i>Property Tree Export</a>
+                                        <i class="fas fa-tachometer-alt"></i>Property Tree Export</a>
                                 </li>
                                 <li>
                                     <a href="index4.html">
-                                        <i class="fas fa-clipboard-list"></i>List Phrasesets</a>
+                                        <i class="fas fa-tachometer-alt"></i>List Phrasesets</a>
                                 </li>
                                 <li>
                                     <a href="index4.html">
-                                        <i class="far fa-copy"></i>Copy Phraseset</a>
+                                        <i class="fas fa-tachometer-alt"></i>Copy Phraseset</a>
                                 </li>
                                 <li>
                                     <a href="index4.html">
-                                        <i class="fas fa-arrow-circle-down"></i>Phraseset Import</a>
+                                        <i class="fas fa-tachometer-alt"></i>Phraseset Import</a>
                                 </li>
                                 <li>
                                     <a href="index4.html">
-                                        <i class="fas fa-arrow-circle-up"></i>Phraseset Export</a>
+                                        <i class="fas fa-tachometer-alt"></i>Phraseset Export</a>
                                 </li>
                                 <li>
                                     <a href="index4.html">
-                                        <i class="fas fa-list-ul"></i>List Properties</a>
+                                        <i class="fas fa-tachometer-alt"></i>List Properties</a>
                                 </li>
                                 <li>
                                     <a href="index4.html">
-                                        <i class="far fa-file"></i>New Property</a>
+                                        <i class="fas fa-tachometer-alt"></i>New Property</a>
                                 </li>
                                 <li>
                                     <a href="index4.html">
-                                        <i class="far fa-list-alt"></i>List Classes</a>
+                                        <i class="fas fa-tachometer-alt"></i>List Classes</a>
                                 </li>
                                 <li>
                                     <a href="index4.html">
-                                        <i class="fas fa-th-list"></i>List Attributes</a>
+                                        <i class="fas fa-tachometer-alt"></i>List Attributes</a>
                                 </li>
                                
                             </ul>
-                        </li> -->
-
+                        </li>
+            -->
                         <li class=" has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-language"></i>Language
@@ -321,11 +434,11 @@
                                 </li>
                                 <li>
                                     <a href="../language/new_language.html">
-                                        <i class="far fa-plus-square"></i>New Language</a>
+                                        <i class="fas fa-plus-square"></i>New Language</a>
                                 </li>
                                 <li>
                                     <a href="../language/list_language_codes.html">
-                                        <i class="far fa-list-alt"></i>List Language Codes</a>
+                                        <i class="fas fa-list-alt"></i>List Language Codes</a>
                                 </li>
                                 <li>
                                     <a href="../language/new_language_code.html">
@@ -333,7 +446,7 @@
                                 </li>
                                 <li>
                                     <a href="../language/copy_language_codes.html">
-                                        <i class="far fa-clone"></i>Copy Language Codes</a>
+                                        <i class="fas fa-clone"></i>Copy Language Codes</a>
                                 </li>
                                 
                                
@@ -349,7 +462,7 @@
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
                                     <a href="../admin/admin_landing.html">
-                                        <i class="far fa-calendar-alt"></i>Translations per month and user</a>
+                                        <i class="fas fa-calendar-alt"></i>Translations per month and user</a>
                                 </li>
                                 <li>
                                     <a href="../admin/admin_not_translated.html">
@@ -357,7 +470,7 @@
                                 </li>
                                 <li>
                                     <a href="../admin/admin_country_not_translated.html">
-                                        <i class="far fa-flag"></i>Missing Translations of Countrynames</a>
+                                        <i class="fas fa-flag"></i>Missing Translations of Countrynames</a>
                                 </li>
                                 <li>
                                     <a href="../admin/admin_company_list.html">
@@ -365,7 +478,7 @@
                                 </li>
                                 <li>
                                     <a href="../admin/admin_new_company.html">
-                                        <i class="far fa-plus-square"></i>New Company</a>
+                                        <i class="fas fa-plus-square"></i>New Company</a>
                                 </li>
                                 <li>
                                     <a href="../admin/admin_credit_point.html">
@@ -385,7 +498,7 @@
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
                                     <a href="../help/help-user.html">
-                                        <i class="far fa-file-alt"></i>User Data and Registration</a>
+                                        <i class="fas fa-file-alt"></i>User Data and Registration</a>
                                 </li>
                                 <li>
                                     <a href="../help/help_phrasetexts_translations.html">
