@@ -1599,7 +1599,7 @@
       var that = $(this);
       that.on('click', function (e) {
         e.preventDefault();
-        that.find(".arrow2").toggleClass("up");
+        that.find(".arrow").toggleClass("up");
         that.toggleClass("open");
         that.parent().find('.js-sub-list2').slideToggle("250");
       });

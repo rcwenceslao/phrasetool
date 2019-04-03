@@ -1,0 +1,185 @@
+//user
+
+								<li>
+                                    <a href="../user/users-list.html">
+                                        <i class="fas fa-users"></i>List Of Users</a>
+                                </li>
+                                <li>
+                                    <a href="#.html">
+                                        <i class="fas fa-user-plus"></i>New User</a>
+                                </li>
+                                <li>
+                                    <a href="edit-profile.html">
+                                        <i class="fas fa-edit"></i>Edit Own Profile</a>
+                                </li>
+                                <li>
+                                    <a href="admin_company_info.html">
+                                        <i class="fas fa-eye"></i>View Company</a>
+                                </li>
+                                <li>
+                                    <a href="admin_edit_company.html">
+                                        <i class="far fa-edit"></i>Edit Company</a>
+                                </li>
+
+//phrasetext
+								<li>
+                                    <a href="../phrasetext/phrasetext_landing.html">
+                                        <i class="fas fa-search"></i>Search Phrasetext</a>
+                                </li>
+                                <li>
+                                    <a href="../phrasetext/missing_phrasetext.html">
+                                        <i class="fas fa-exclamation-circle"></i>Missing Translation</a>
+                                </li>
+                                <li>
+                                    <a href="../phrasetext/list_phraseheads.html">
+                                        <i class="fas fa-list-ol"></i>List Phraseheads</a>
+                                </li>
+                                <li>
+                                    <a href="../phrasetext/new_phrasehead.html">
+                                        <i class="far fa-plus-square"></i>New Phrasehead</a>
+                                </li>
+
+
+//phrasecatalogue
+								<li>
+                                    <a href="../phrasecatalogue/list_and_map.html">
+                                        <i class="fas fa-map-signs"></i>List and Map</a>
+                                </li>
+                                <li>
+                                    <a href="../phrasecatalogue/new_phrasecatalogue.html">
+                                        <i class="fas fa-plus"></i>New Phrasecatalogue</a>
+                                </li>
+                                <li>
+                                    <a href="../phrasecatalogue/phrasecatalogue_import.html">
+                                        <i class="fas fa-file-download"></i>Phrasecatalogue Import</a>
+                                </li>
+                                <li>
+                                    <a href="../phrasecatalogue/phrasecatalogue_export.html">
+                                        <i class="fas fa-file-export"></i>Phrasecatalogue Export</a>
+                                </li>
+                                <li>
+                                    <a href="phrasecatalogue_comparison.html">
+                                        <i class="fas fa-greater-than-equal"></i>Phrasecatalogue Comparison</a>
+                                </li>
+                                <li>
+                                    <a href="../phrasecatalogue/resume_phrase_mapping.html">
+                                        <i class="fas fa-map"></i>Resume Phrase mapping</a>
+                                </li>
+                                <li>
+                                    <a href="../phrasecatalogue/list_phrasegroup.html">
+                                        <i class="fas fa-th-list"></i>List Phrase Group</a>
+                                </li>
+                                <li>
+                                    <a href="../phrasecatalogue/new_phrasegroup.html">
+                                        <i class="far fa-file"></i>New Phrase Group</a>
+                                </li>
+                                <li>
+                                    <a href="../phrasecatalogue/compress_phrasecatalogue.html">
+                                        <i class="fas fa-compress"></i>Compress Phrasecatalogue</a>
+                                </li>
+                                <li>
+                                    <a href="../phrasecatalogue/special_data_mapping.html">
+                                        <i class="fas fa-eye"></i>View Special Data</a>
+                                </li>
+
+//label
+								<li>
+                                    <a href="../label/list_label.html">
+                                        <i class="fas fa-list"></i>List Labels</a>
+                                </li>
+                                <li>
+                                    <a href="../label/new_label.html">
+                                        <i class="fas fa-plus"></i>New Label</a>
+                                </li>
+
+//language
+								<li>
+                                    <a href="language_landing.html">
+                                        <i class="fas fa-list-ol"></i>List Languages</a>
+                                </li>
+                                <li>
+                                    <a href="new_language.html">
+                                        <i class="far fa-plus-square"></i>New Language</a>
+                                </li>
+                                <li>
+                                    <a href="list_language_codes.html">
+                                        <i class="far fa-list-alt"></i>List Language Codes</a>
+                                </li>
+                                <li>
+                                    <a href="new_language_code.html">
+                                        <i class="fas fa-folder-plus"></i>New Language Code</a>
+                                </li>
+                                <li>
+                                    <a href="copy_language_code.html">
+                                        <i class="far fa-clone"></i>Copy Language Codes</a>
+                                </li>
+
+
+//admin
+
+								<li>
+                                    <a href="../admin/admin_landing.php">
+                                        <i class="far fa-calendar-alt"></i>Translations per month and user</a>
+                                </li>
+                                <li>
+                                    <a href="../admin/admin_not_translated.html">
+                                        <i class="fas fa-exclamation"></i>Missing Translations of Languagetexts</a>
+                                </li>
+                                <li>
+                                    <a href="../admin/admin_country_not_translated.html">
+                                        <i class="far fa-flag"></i>Missing Translations of Countrynames</a>
+                                </li>
+                                <li>
+                                    <a href="../admin/admin_company_list.html">
+                                        <i class="fas fa-list"></i>List of Companies</a>
+                                </li>
+                                <li>
+                                    <a href="../admin/admin_new_company.html">
+                                        <i class="far fa-plus-square"></i>New Company</a>
+                                </li>
+                                <li>
+                                    <a href="../admin/admin_credit_point.html">
+                                        <i class="fas fa-coins"></i>List Creditpoints</a>
+                                </li>
+
+//help
+
+								<li>
+                                    <a href="../help/help-user.html">
+                                        <i class="far fa-file-alt"></i>User Data and Registration</a>
+                                </li>
+                                <li>
+                                    <a href="../help/help_phrasetexts_translations.html">
+                                        <i class="fas fa-globe-europe"></i>Phrasetexts and Translations</a>
+                                </li>
+                                <li>
+                                    <a href="../help/help_phrasecatalogues_mapping.html">
+                                        <i class="fas fa-map-signs"></i>Phrasecatalogues and Mapping</a>
+                                </li>
+                                <li>
+                                    <a href="../help/help-import-export.html">
+                                        <i class="fas fa-arrows-alt-h"></i>Import and Export</a>
+                                </li>
+                                <li>
+                                    <a href="help_property_tree.html">
+                                        <i class="fas fa-code-branch"></i>Propertytrees</a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fas fa-tag"></i>Labels</a>
+                                </li>
+
+//account dropdown
+										<div class="account-dropdown__item">
+                                            <a href="../user/system-status.html">
+                                                <i class="fas fa-signal"></i>System Status</a>
+                                        </div>
+                                        <div class="account-dropdown__item">
+                                            <a href="../privacy/impress.html">
+                                                <i class="fas fa-info"></i>Impress</a>
+                                        </div>
+                                        <div class="account-dropdown__item">
+                                            <a href="../privacy/privacy-statement.html">
+                                                <i class="fas fa-lock"></i>Privacy Statement</a>
+                                        </div>
+
