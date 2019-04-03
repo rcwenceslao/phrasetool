@@ -5,12 +5,12 @@
     <!-- Required meta tags-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="au theme template">
+    <meta name="author" content="Hau Nguyen">
+    <meta name="keywords" content="au theme template">
 
     <!-- Title Page-->
-    <title>Admin ~ Phrasetool by Rimpido</title>
+    <title>Phrasetext ~ Phrasetool by Rimpido</title>
 
     <!-- Fontfaces CSS-->
     <link href="../../css/font-face.css" rel="stylesheet" media="all">
@@ -85,23 +85,23 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="../user/users-list.html">
+                                    <a href="pages/user/users-list.html">
                                         <i class="fas fa-users"></i>List Of Users</a>
                                 </li>
                                 <li>
-                                    <a href="#.html">
+                                    <a href="index2.html">
                                         <i class="fas fa-user-plus"></i>New User</a>
                                 </li>
                                 <li>
-                                    <a href="edit-profile.html">
+                                    <a href="index3.html">
                                         <i class="fas fa-edit"></i>Edit Own Profile</a>
                                 </li>
                                 <li>
-                                    <a href="admin_company_info.html">
+                                    <a href="index4.html">
                                         <i class="fas fa-eye"></i>View Company</a>
                                 </li>
                                 <li>
-                                    <a href="admin_edit_company.html">
+                                    <a href="index4.html">
                                         <i class="far fa-edit"></i>Edit Company</a>
                                 </li>
                                 <!--
@@ -121,7 +121,7 @@
                                 </span>
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
-                                <li>
+                               <li>
                                     <a href="../phrasetext/phrasetext_landing.html">
                                         <i class="fas fa-search"></i>Search Phrasetext</a>
                                 </li>
@@ -151,43 +151,43 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="../phrasecatalogue/list_and_map.html">
+                                    <a href="index.html">
                                         <i class="fas fa-map-signs"></i>List and Map</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasecatalogue/new_phrasecatalogue.html">
+                                    <a href="index2.html">
                                         <i class="fas fa-plus"></i>New Phrasecatalogue</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasecatalogue/phrasecatalogue_import.html">
+                                    <a href="index3.html">
                                         <i class="fas fa-file-download"></i>Phrasecatalogue Import</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasecatalogue/phrasecatalogue_export.html">
+                                    <a href="index4.html">
                                         <i class="fas fa-file-export"></i>Phrasecatalogue Export</a>
                                 </li>
                                 <li>
-                                    <a href="phrasecatalogue_comparison.html">
+                                    <a href="index4.html">
                                         <i class="fas fa-greater-than-equal"></i>Phrasecatalogue Comparison</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasecatalogue/resume_phrase_mapping.html">
+                                    <a href="index4.html">
                                         <i class="fas fa-map"></i>Resume Phrase mapping</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasecatalogue/list_phrasegroup.html">
+                                    <a href="index4.html">
                                         <i class="fas fa-th-list"></i>List Phrase Group</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasecatalogue/new_phrasegroup.html">
+                                    <a href="index4.html">
                                         <i class="far fa-file"></i>New Phrase Group</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasecatalogue/compress_phrasecatalogue.html">
+                                    <a href="index4.html">
                                         <i class="fas fa-compress"></i>Compress Phrasecatalogue</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasecatalogue/special_data_mapping.html">
+                                    <a href="index4.html">
                                         <i class="fas fa-eye"></i>View Special Data</a>
                                 </li>
                                
@@ -203,19 +203,73 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="../label/list_label.html">
+                                    <a href="index.html">
                                         <i class="fas fa-list"></i>List Labels</a>
                                 </li>
                                 <li>
-                                    <a href="../label/new_label.html">
+                                    <a href="index2.html">
                                         <i class="fas fa-plus"></i>New Label</a>
                                 </li>
                                 
                             </ul>
                         </li>
-                        
+                        <li class=" has-sub">
+                            <a class="js-arrow" href="#">
+                                <i class="fas fa-tree"></i>Property Tree
+                                <span class="arrow">
+                                    <i class="fas fa-angle-down"></i>
+                                </span>
+                            </a>
+                            <ul class="list-unstyled navbar__sub-list js-sub-list">
+                                <li>
+                                    <a href="index.html">
+                                        <i class="fas fa-list-ol"></i>List Trees</a>
+                                </li>
+                                <li>
+                                    <a href="index2.html">
+                                        <i class="fas fa-arrow-circle-down"></i>Property Tree Import</a>
+                                </li>
+                                <li>
+                                    <a href="index3.html">
+                                        <i class="fas fa-arrow-circle-up"></i>Property Tree Export</a>
+                                </li>
+                                <li>
+                                    <a href="index4.html">
+                                        <i class="fas fa-clipboard-list"></i>List Phrasesets</a>
+                                </li>
+                                <li>
+                                    <a href="index4.html">
+                                        <i class="far fa-copy"></i>Copy Phraseset</a>
+                                </li>
+                                <li>
+                                    <a href="index4.html">
+                                        <i class="fas fa-arrow-circle-down"></i>Phraseset Import</a>
+                                </li>
+                                <li>
+                                    <a href="index4.html">
+                                        <i class="fas fa-arrow-circle-up"></i>Phraseset Export</a>
+                                </li>
+                                <li>
+                                    <a href="index4.html">
+                                        <i class="fas fa-list-ul"></i>List Properties</a>
+                                </li>
+                                <li>
+                                    <a href="index4.html">
+                                        <i class="far fa-file"></i>New Property</a>
+                                </li>
+                                <li>
+                                    <a href="index4.html">
+                                        <i class="far fa-list-alt"></i>List Classes</a>
+                                </li>
+                                <li>
+                                    <a href="index4.html">
+                                        <i class="fas fa-th-list"></i>List Attributes</a>
+                                </li>
+                               
+                            </ul>
+                        </li>
 
-                        <li class="has-sub">
+                        <li class="active has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-language"></i>Language
                                 <span class="arrow">
@@ -245,7 +299,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="active has-sub">
+                        <li class=" has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-user-secret"></i>Admin
                                 <span class="arrow">
@@ -253,7 +307,7 @@
                                 </span>
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
-                                <li>
+                                 <li>
                                     <a href="admin_landing.php">
                                         <i class="far fa-calendar-alt"></i>Translations per month and user</a>
                                 </li>
@@ -290,27 +344,27 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="../help/help-user.html">
+                                    <a href="index.html">
                                         <i class="far fa-file-alt"></i>User Data and Registration</a>
                                 </li>
                                 <li>
-                                    <a href="../help/help_phrasetexts_translations.html">
+                                    <a href="index2.html">
                                         <i class="fas fa-globe-europe"></i>Phrasetexts and Translations</a>
                                 </li>
                                 <li>
-                                    <a href="../help/help_phrasecatalogues_mapping.html">
+                                    <a href="index3.html">
                                         <i class="fas fa-map-signs"></i>Phrasecatalogues and Mapping</a>
                                 </li>
                                 <li>
-                                    <a href="../help/help-import-export.html">
+                                    <a href="index4.html">
                                         <i class="fas fa-arrows-alt-h"></i>Import and Export</a>
                                 </li>
                                 <li>
-                                    <a href="help_property_tree.html">
+                                    <a href="index4.html">
                                         <i class="fas fa-code-branch"></i>Propertytrees</a>
                                 </li>
                                 <li>
-                                    <a href="#">
+                                    <a href="index4.html">
                                         <i class="fas fa-tag"></i>Labels</a>
                                 </li>
                                 
@@ -446,7 +500,7 @@
                         <div class="header-wrap2">
                             <div class="logo d-block d-lg-none">
                                 <a href="#">
-                                    <img src="../../image/icon/logo-white.png" alt="" />
+                                    <img src="../../image/icon/logo-white.png" alt="CoolAdmin" />
                                 </a>
                             </div>
                             <div class="header-button2">
@@ -523,15 +577,15 @@
                                     </div>
                                     <div class="account-dropdown__body">
                                         <div class="account-dropdown__item">
-                                            <a href="../user/system-status.html">
+                                            <a href="#">
                                                 <i class="fas fa-signal"></i>System Status</a>
                                         </div>
                                         <div class="account-dropdown__item">
-                                            <a href="../privacy/impress.html">
+                                            <a href="#">
                                                 <i class="fas fa-info"></i>Impress</a>
                                         </div>
                                         <div class="account-dropdown__item">
-                                            <a href="../privacy/privacy-statement.html">
+                                            <a href="#">
                                                 <i class="fas fa-lock"></i>Privacy Statement</a>
                                         </div>
                                         <!--
@@ -550,7 +604,7 @@
             <aside class="menu-sidebar2 js-right-sidebar d-block d-lg-none">
                 <div class="logo">
                     <a href="#">
-                        <img src="../../images/icon/logo-white.png" alt="" />
+                        <img src="../../images/icon/logo-white.png" alt="Cool Admin" />
                     </a>
                 </div>
                 <div class="menu-sidebar2__content js-scrollbar2">
@@ -572,27 +626,27 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="../user/users-list.html">
-                                        <i class="fas fa-users"></i>List Of Users</a>
+                                    <a href="index.html">
+                                        <i class="fas fa-tachometer-alt"></i>List Of Users</a>
                                 </li>
                                 <li>
-                                    <a href="#.html">
-                                        <i class="fas fa-user-plus"></i>New User</a>
+                                    <a href="index2.html">
+                                        <i class="fas fa-tachometer-alt"></i>New User</a>
                                 </li>
                                 <li>
-                                    <a href="edit-profile.html">
-                                        <i class="fas fa-edit"></i>Edit Own Profile</a>
+                                    <a href="index3.html">
+                                        <i class="fas fa-tachometer-alt"></i>Edit Own Profile</a>
                                 </li>
                                 <li>
-                                    <a href="admin_company_info.html">
-                                        <i class="fas fa-eye"></i>View Company</a>
+                                    <a href="index4.html">
+                                        <i class="fas fa-tachometer-alt"></i>View Company</a>
                                 </li>
                                 <li>
-                                    <a href="admin_edit_company.html">
-                                        <i class="far fa-edit"></i>Edit Company</a>
+                                    <a href="index4.html">
+                                        <i class="fas fa-tachometer-alt"></i>Edit Company</a>
                                 </li>
                                 <li>
-                                    <a href="../user/system-status.html">
+                                    <a href="index4.html">
                                         <i class="fas fa-tachometer-alt"></i>System Status</a>
                                 </li>
                             </ul>
@@ -636,44 +690,44 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="../phrasecatalogue/list_and_map.html">
-                                        <i class="fas fa-map-signs"></i>List and Map</a>
+                                    <a href="index.html">
+                                        <i class="fas fa-tachometer-alt"></i>List and Map</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasecatalogue/new_phrasecatalogue.html">
-                                        <i class="fas fa-plus"></i>New Phrasecatalogue</a>
+                                    <a href="index2.html">
+                                        <i class="fas fa-tachometer-alt"></i>New Phrasecatalogue</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasecatalogue/phrasecatalogue_import.html">
-                                        <i class="fas fa-file-download"></i>Phrasecatalogue Import</a>
+                                    <a href="index3.html">
+                                        <i class="fas fa-tachometer-alt"></i>Phrasecatalogue Import</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasecatalogue/phrasecatalogue_export.html">
-                                        <i class="fas fa-file-export"></i>Phrasecatalogue Export</a>
+                                    <a href="index4.html">
+                                        <i class="fas fa-tachometer-alt"></i>Phrasecatalogue Export</a>
                                 </li>
                                 <li>
-                                    <a href="phrasecatalogue_comparison.html">
-                                        <i class="fas fa-greater-than-equal"></i>Phrasecatalogue Comparison</a>
+                                    <a href="index4.html">
+                                        <i class="fas fa-tachometer-alt"></i>Phrasecatalogue Comparison</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasecatalogue/resume_phrase_mapping.html">
-                                        <i class="fas fa-map"></i>Resume Phrase mapping</a>
+                                    <a href="index4.html">
+                                        <i class="fas fa-tachometer-alt"></i>Resume Phrase mapping</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasecatalogue/list_phrasegroup.html">
-                                        <i class="fas fa-th-list"></i>List Phrase Group</a>
+                                    <a href="index4.html">
+                                        <i class="fas fa-tachometer-alt"></i>List Phrase Group</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasecatalogue/new_phrasegroup.html">
-                                        <i class="far fa-file"></i>New Phrase Group</a>
+                                    <a href="index4.html">
+                                        <i class="fas fa-tachometer-alt"></i>New Phrase Group</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasecatalogue/compress_phrasecatalogue.html">
-                                        <i class="fas fa-compress"></i>Compress Phrasecatalogue</a>
+                                    <a href="index4.html">
+                                        <i class="fas fa-tachometer-alt"></i>Compress Phrasecatalogue</a>
                                 </li>
                                 <li>
-                                    <a href="../phrasecatalogue/special_data_mapping.html">
-                                        <i class="fas fa-eye"></i>View Special Data</a>
+                                    <a href="index4.html">
+                                        <i class="fas fa-tachometer-alt"></i>View Special Data</a>
                                 </li>
                                
                             </ul>
@@ -688,17 +742,16 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="../label/list_label.html">
-                                        <i class="fas fa-list"></i>List Labels</a>
+                                    <a href="index.html">
+                                        <i class="fas fa-tachometer-alt"></i>List Labels</a>
                                 </li>
                                 <li>
-                                    <a href="../label/new_label.html">
-                                        <i class="fas fa-plus"></i>New Label</a>
+                                    <a href="index2.html">
+                                        <i class="fas fa-tachometer-alt"></i>New Label</a>
                                 </li>
                                 
                             </ul>
                         </li>
-                        <!--
                         <li class=" has-sub">
                             <a class="js-arrow" href="#">
                                 <i class="fas fa-tachometer-alt"></i>Property Tree
@@ -754,7 +807,6 @@
                                
                             </ul>
                         </li>
-                    -->
 
                         <li class="active has-sub">
                             <a class="js-arrow" href="#">
@@ -765,23 +817,23 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                <li>
-                                    <a href="../language/language_landing.html">
+                                    <a href="language_landing.html">
                                         <i class="fas fa-list-ol"></i>List Languages</a>
                                 </li>
                                 <li>
-                                    <a href="../language/new_language.html">
+                                    <a href="new_language.html">
                                         <i class="far fa-plus-square"></i>New Language</a>
                                 </li>
                                 <li>
-                                    <a href="../language/list_language_codes.html">
+                                    <a href="list_language_codes.html">
                                         <i class="far fa-list-alt"></i>List Language Codes</a>
                                 </li>
                                 <li>
-                                    <a href="../language/new_language_code.html">
+                                    <a href="new_language_code.html">
                                         <i class="fas fa-folder-plus"></i>New Language Code</a>
                                 </li>
                                 <li>
-                                    <a href="../language/copy_language_code.html">
+                                    <a href="copy_language_code.html">
                                         <i class="far fa-clone"></i>Copy Language Codes</a>
                                 </li>
                             </ul>
@@ -831,28 +883,28 @@
                             </a>
                             <ul class="list-unstyled navbar__sub-list js-sub-list">
                                 <li>
-                                    <a href="../help/help-user.html">
-                                        <i class="far fa-file-alt"></i>User Data and Registration</a>
+                                    <a href="index.html">
+                                        <i class="fas fa-tachometer-alt"></i>User Data and Registration</a>
                                 </li>
                                 <li>
-                                    <a href="../help/help_phrasetexts_translations.html">
-                                        <i class="fas fa-globe-europe"></i>Phrasetexts and Translations</a>
+                                    <a href="index2.html">
+                                        <i class="fas fa-tachometer-alt"></i>Phrasetexts and Translations</a>
                                 </li>
                                 <li>
-                                    <a href="../help/help_phrasecatalogues_mapping.html">
-                                        <i class="fas fa-map-signs"></i>Phrasecatalogues and Mapping</a>
+                                    <a href="index3.html">
+                                        <i class="fas fa-tachometer-alt"></i>Phrasecatalogues and Mapping</a>
                                 </li>
                                 <li>
-                                    <a href="../help/help-import-export.html">
-                                        <i class="fas fa-arrows-alt-h"></i>Import and Export</a>
+                                    <a href="index4.html">
+                                        <i class="fas fa-tachometer-alt"></i>Import and Export</a>
                                 </li>
                                 <li>
-                                    <a href="help_property_tree.html">
-                                        <i class="fas fa-code-branch"></i>Propertytrees</a>
+                                    <a href="index4.html">
+                                        <i class="fas fa-tachometer-alt"></i>Propertytrees</a>
                                 </li>
                                 <li>
-                                    <a href="#">
-                                        <i class="fas fa-tag"></i>Labels</a>
+                                    <a href="index4.html">
+                                        <i class="fas fa-tachometer-alt"></i>Labels</a>
                                 </li>
                                 
                                
@@ -989,12 +1041,12 @@
                                         <span class="au-breadcrumb-span">You are here:</span>
                                         <ul class="list-unstyled list-inline au-breadcrumb__list">
                                             <li class="list-inline-item active">
-                                                <a href="#">Admin</a>
+                                                <a href="#">Language</a>
                                             </li>
                                             <li class="list-inline-item seprate">
                                                 <span>/</span>
                                             </li>
-                                            <li class="list-inline-item">Edit Credit Points</li>
+                                            <li class="list-inline-item">List of Language</li>
                                         </ul>
                                     </div>
                                     <!--
@@ -1112,7 +1164,7 @@
                                                                 <select name="select" id="select" class="form-control">
                                                                     <?php
 
-                                                                    for ($x = 1; $x < 13; $x++){
+                                                                    for ($x = 1; $x < 9; $x++){
                                                                         echo "<option value=". $x .">". $x ."</option>";
                                                                     }
                                                                     ?>
